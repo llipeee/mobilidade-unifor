@@ -1,0 +1,409 @@
+{
+  "id": "candidatura-revisao",
+  "nome": "Candidatura preparada · antes do envio",
+  "descricao": "Consulta de três oportunidades e candidatura própria preparada. Nenhum protocolo gerado.",
+  "clock": "2026-12-08T14:14:00-03:00",
+  "revision": 1,
+  "carteira": "legado",
+  "entities": {
+    "edicoes": {
+      "EX-01/2027": {
+        "id": "EX-01/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Portugal",
+        "area": "Computação",
+        "destino": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "foto": "assets/recurso-original-05.png",
+        "fotoAlt": "Bandeira de Portugal, fotografia da referência original",
+        "capacidade": 2,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {},
+        "versaoAtual": 2,
+        "versoes": [
+          {
+            "numero": 2,
+            "destino": "Universidade Horizonte",
+            "pais": "Portugal",
+            "cidade": "Lisboa",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-10T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [
+              {
+                "id": "historico",
+                "titulo": "Histórico acadêmico",
+                "obrigatorio": true
+              },
+              {
+                "id": "carta",
+                "titulo": "Carta de motivação",
+                "obrigatorio": true
+              },
+              {
+                "id": "proficiencia",
+                "titulo": "Comprovante de proficiência",
+                "obrigatorio": true
+              }
+            ],
+            "proficiencia": "Comprovante de proficiência em inglês B1.",
+            "edital": "pdf-bb81e5a8b6d623",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": [
+              {
+                "id": "situacao",
+                "nome": "Situação da matrícula",
+                "exigencia": "Matrícula ativa",
+                "valor": "Ativa",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "integralizacao",
+                "nome": "Integralização do curso",
+                "exigencia": "De 30% a 70%, inclusive",
+                "valor": "45%",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "pmg",
+                "nome": "PMG",
+                "exigencia": "PMG igual ou superior a 7,0",
+                "valor": "8,2",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "reprovacoes",
+                "nome": "Reprovações no fluxo contínuo",
+                "exigencia": "Ausência de reprovações no fluxo contínuo",
+                "valor": "Nenhuma",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              }
+            ]
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [
+          "BA-2027"
+        ],
+        "historico": [],
+        "dadosCompletos": true
+      },
+      "EX-02/2027": {
+        "id": "EX-02/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Canadá",
+        "area": "Computação",
+        "destino": "Instituto Aurora",
+        "cidade": "Toronto",
+        "foto": "assets/recurso-original-04.png",
+        "fotoAlt": "Bandeira do Canadá, fotografia da referência original",
+        "capacidade": 3,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {},
+        "versaoAtual": 1,
+        "versoes": [
+          {
+            "numero": 1,
+            "destino": "Instituto Aurora",
+            "pais": "Canadá",
+            "cidade": "Toronto",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-12T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [],
+            "proficiencia": "",
+            "edital": "pdf-d6931f0d520e98",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": []
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [],
+        "historico": [],
+        "dadosCompletos": false
+      },
+      "EX-03/2027": {
+        "id": "EX-03/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Alemanha",
+        "area": "Computação",
+        "destino": "Universidade Vale do Reno",
+        "cidade": "Nuremberg",
+        "foto": "assets/recurso-original-08.png",
+        "fotoAlt": "Bandeira da Alemanha, fotografia da referência original",
+        "capacidade": 2,
+        "ocupacaoInicial": 1,
+        "ocupacoes": {},
+        "versaoAtual": 1,
+        "versoes": [
+          {
+            "numero": 1,
+            "destino": "Universidade Vale do Reno",
+            "pais": "Alemanha",
+            "cidade": "Nuremberg",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-15T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [],
+            "proficiencia": "",
+            "edital": "pdf-1054043b637ba9",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": []
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [
+          "BP-2027"
+        ],
+        "historico": [],
+        "dadosCompletos": false
+      }
+    },
+    "candidaturas": {
+      "rascunho-ana": {
+        "id": "rascunho-ana",
+        "rev": 1,
+        "studentId": "20260001",
+        "edicaoId": "EX-01/2027",
+        "estado": "Rascunho",
+        "protocolo": null,
+        "primeiroEnvio": null,
+        "versaoAplicavel": 2,
+        "declaracao": {
+          "matricula": "Ativa",
+          "integralizacao": "45",
+          "pmg": "8,2",
+          "reprovacoes": "Nenhuma"
+        },
+        "identificacao": {
+          "nome": "Ana Souza",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {
+          "historico": [
+            "pdf-57e33689f0cf1e"
+          ],
+          "carta": [
+            "pdf-e9cb0d2f9358ae"
+          ],
+          "proficiencia": [
+            "pdf-20e8b1097eaf25"
+          ]
+        },
+        "interesses": [
+          "BA-2027"
+        ],
+        "pedidos": [],
+        "conferencia": null,
+        "selecao": null,
+        "respostasExternas": [],
+        "inicio": null,
+        "retorno": null,
+        "historico": [],
+        "documentosInfo": {
+          "pdf-57e33689f0cf1e": {
+            "origem": "Original do envio",
+            "instante": null,
+            "titulo": "Histórico acadêmico",
+            "observacao": ""
+          },
+          "pdf-e9cb0d2f9358ae": {
+            "origem": "Original do envio",
+            "instante": null,
+            "titulo": "Carta de motivação",
+            "observacao": ""
+          },
+          "pdf-20e8b1097eaf25": {
+            "origem": "Original do envio",
+            "instante": null,
+            "titulo": "Comprovante de proficiência",
+            "observacao": ""
+          }
+        },
+        "condicoes": {
+          "numero": 2,
+          "destino": "Universidade Horizonte",
+          "pais": "Portugal",
+          "cidade": "Lisboa",
+          "area": "Computação",
+          "duracao": "6 meses",
+          "inicio": "2026-11-01T08:00:00-03:00",
+          "fim": "2026-12-10T18:00:00-03:00",
+          "fuso": "America/Sao_Paulo",
+          "documentos": [
+            {
+              "id": "historico",
+              "titulo": "Histórico acadêmico",
+              "obrigatorio": true
+            },
+            {
+              "id": "carta",
+              "titulo": "Carta de motivação",
+              "obrigatorio": true
+            },
+            {
+              "id": "proficiencia",
+              "titulo": "Comprovante de proficiência",
+              "obrigatorio": true
+            }
+          ],
+          "proficiencia": "Comprovante de proficiência em inglês B1.",
+          "edital": "pdf-bb81e5a8b6d623",
+          "camposObrigatorios": [
+            "nome",
+            "curso"
+          ],
+          "criterios": [
+            {
+              "id": "situacao",
+              "nome": "Situação da matrícula",
+              "exigencia": "Matrícula ativa",
+              "valor": "Ativa",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "integralizacao",
+              "nome": "Integralização do curso",
+              "exigencia": "De 30% a 70%, inclusive",
+              "valor": "45%",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "pmg",
+              "nome": "PMG",
+              "exigencia": "PMG igual ou superior a 7,0",
+              "valor": "8,2",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "reprovacoes",
+              "nome": "Reprovações no fluxo contínuo",
+              "exigencia": "Ausência de reprovações no fluxo contínuo",
+              "valor": "Nenhuma",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bolsas": {
+      "BA-2027": {
+        "id": "BA-2027",
+        "rev": 1,
+        "edicaoId": "EX-01/2027",
+        "nome": "Bolsa Apoio Mobilidade 2027",
+        "regras": "Manifestação de interesse na candidatura, seleção interna e decisão da gestão. Sem concessão automática.",
+        "cumulacao": "Conferir regras declaradas, sem presumir política adicional.",
+        "valor": "400,00",
+        "moeda": "EUR",
+        "periodo": "6 meses",
+        "limite": 1,
+        "ocupacaoInicial": 0,
+        "historico": []
+      },
+      "BP-2027": {
+        "id": "BP-2027",
+        "rev": 1,
+        "edicaoId": "EX-03/2027",
+        "nome": "Bolsa Parceria 2027",
+        "regras": "",
+        "cumulacao": "Conferir regras declaradas, sem presumir política adicional.",
+        "valor": "",
+        "moeda": "BRL",
+        "periodo": "",
+        "limite": 1,
+        "ocupacaoInicial": 0,
+        "historico": []
+      }
+    },
+    "concessoes": {},
+    "convenios": {},
+    "instituicoes": {},
+    "mobilidades": {},
+    "pedidos": {},
+    "materiais": {},
+    "eventos": {},
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {},
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {},
+  "initial": {
+    "estudante": "oportunidades"
+  },
+  "samples": []
+}

@@ -1,0 +1,484 @@
+[
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_2_estaticos/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "arquivo": "assets/recurso-original-04.png",
+    "origem": "rodada_2_estaticos/assets/recurso-original-04.png",
+    "sha256": "bf135079e0a4b075b457853df4e193405329520b39d03a40dd2af2db57acb515"
+  },
+  {
+    "arquivo": "assets/recurso-original-05.png",
+    "origem": "rodada_2_estaticos/assets/recurso-original-05.png",
+    "sha256": "34a69c99f58d95434c8f28f0298b5d08192755a3d1082aa41e87953387b3786e"
+  },
+  {
+    "arquivo": "assets/recurso-original-08.png",
+    "origem": "rodada_2_estaticos/assets/recurso-original-08.png",
+    "sha256": "176802aac5b732207035169a0edc2d0e4b4f92ce148b8b013ec850449c1534ee"
+  },
+  {
+    "arquivo": "assets/recurso-original-09.png",
+    "origem": "rodada_2_estaticos/assets/recurso-original-09.png",
+    "sha256": "ae7be7fcdb472248246fcd57799b674f3211b26296ebdd0022146c8817608012"
+  },
+  {
+    "catalogoOrigem": "rodada_2_estaticos/assets/ORIGEM_ASSETS.json",
+    "conteudo": [
+      {
+        "arquivo": "assets/recurso-original-00.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          1112,
+          536
+        ],
+        "sha256_pixels": "ed21fb53b5e6ce27a11198cf2c268d2775e2a6df823133574dd07ca30f5bb33f"
+      },
+      {
+        "arquivo": "assets/recurso-original-02.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X8.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "1da550989128198642ab5a7b1febb93adb2d3ad199d43136e7a9756e25410406"
+      },
+      {
+        "arquivo": "assets/recurso-original-04.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X5.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "15d1d572a66c0e1aac3eab75f3b9b2622ece009fc814c1f50426184d858f433e"
+      },
+      {
+        "arquivo": "assets/recurso-original-05.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X10.jp2",
+        "tamanho": [
+          1067,
+          808
+        ],
+        "sha256_pixels": "035ba2113dff0fde433cab9cb97b060a880cc53fc83c39bca50984287d1339fb"
+      },
+      {
+        "arquivo": "assets/recurso-original-08.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X3.jp2",
+        "tamanho": [
+          1331,
+          749
+        ],
+        "sha256_pixels": "b356a2b66093678158c542a12f56e7060baafcd103a2885812b274fdd4688b48"
+      },
+      {
+        "arquivo": "assets/recurso-original-09.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          96,
+          96
+        ],
+        "sha256_pixels": "44491edc1e5662a6d27b2ad160987cd0051def032d70d2a940bc1184a002c60f"
+      },
+      {
+        "arquivo": "assets/marca-unifor-branca.png",
+        "origem": "referencias/prototipo_original/Home.pdf",
+        "metodo": "Recorte isolado da marca no cabeçalho; fundo azul convertido em transparência, proporções preservadas.",
+        "tamanho": [
+          86,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_3_estaticos/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "arquivo": "assets/recurso-original-04.png",
+    "origem": "rodada_3_estaticos/assets/recurso-original-04.png",
+    "sha256": "bf135079e0a4b075b457853df4e193405329520b39d03a40dd2af2db57acb515"
+  },
+  {
+    "arquivo": "assets/recurso-original-05.png",
+    "origem": "rodada_3_estaticos/assets/recurso-original-05.png",
+    "sha256": "34a69c99f58d95434c8f28f0298b5d08192755a3d1082aa41e87953387b3786e"
+  },
+  {
+    "arquivo": "assets/recurso-original-08.png",
+    "origem": "rodada_3_estaticos/assets/recurso-original-08.png",
+    "sha256": "176802aac5b732207035169a0edc2d0e4b4f92ce148b8b013ec850449c1534ee"
+  },
+  {
+    "arquivo": "assets/recurso-original-09.png",
+    "origem": "rodada_3_estaticos/assets/recurso-original-09.png",
+    "sha256": "ae7be7fcdb472248246fcd57799b674f3211b26296ebdd0022146c8817608012"
+  },
+  {
+    "catalogoOrigem": "rodada_3_estaticos/assets/ORIGEM_ASSETS.json",
+    "conteudo": [
+      {
+        "arquivo": "assets/recurso-original-00.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          1112,
+          536
+        ],
+        "sha256_pixels": "ed21fb53b5e6ce27a11198cf2c268d2775e2a6df823133574dd07ca30f5bb33f"
+      },
+      {
+        "arquivo": "assets/recurso-original-02.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X8.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "1da550989128198642ab5a7b1febb93adb2d3ad199d43136e7a9756e25410406"
+      },
+      {
+        "arquivo": "assets/recurso-original-04.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X5.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "15d1d572a66c0e1aac3eab75f3b9b2622ece009fc814c1f50426184d858f433e"
+      },
+      {
+        "arquivo": "assets/recurso-original-05.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X10.jp2",
+        "tamanho": [
+          1067,
+          808
+        ],
+        "sha256_pixels": "035ba2113dff0fde433cab9cb97b060a880cc53fc83c39bca50984287d1339fb"
+      },
+      {
+        "arquivo": "assets/recurso-original-08.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X3.jp2",
+        "tamanho": [
+          1331,
+          749
+        ],
+        "sha256_pixels": "b356a2b66093678158c542a12f56e7060baafcd103a2885812b274fdd4688b48"
+      },
+      {
+        "arquivo": "assets/recurso-original-09.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          96,
+          96
+        ],
+        "sha256_pixels": "44491edc1e5662a6d27b2ad160987cd0051def032d70d2a940bc1184a002c60f"
+      },
+      {
+        "arquivo": "assets/marca-unifor-branca.png",
+        "origem": "referencias/prototipo_original/Home.pdf",
+        "metodo": "Recorte isolado da marca no cabeçalho; fundo azul convertido em transparência, proporções preservadas.",
+        "tamanho": [
+          86,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_4_consolidada/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "arquivo": "assets/recurso-original-05.png",
+    "origem": "rodada_4_consolidada/assets/recurso-original-05.png",
+    "sha256": "34a69c99f58d95434c8f28f0298b5d08192755a3d1082aa41e87953387b3786e"
+  },
+  {
+    "catalogoOrigem": "rodada_4_consolidada/assets/ORIGEM_ASSETS.json",
+    "conteudo": [
+      {
+        "arquivo": "assets/recurso-original-00.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          1112,
+          536
+        ],
+        "sha256_pixels": "ed21fb53b5e6ce27a11198cf2c268d2775e2a6df823133574dd07ca30f5bb33f"
+      },
+      {
+        "arquivo": "assets/recurso-original-02.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X8.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "1da550989128198642ab5a7b1febb93adb2d3ad199d43136e7a9756e25410406"
+      },
+      {
+        "arquivo": "assets/recurso-original-04.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X5.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "15d1d572a66c0e1aac3eab75f3b9b2622ece009fc814c1f50426184d858f433e"
+      },
+      {
+        "arquivo": "assets/recurso-original-05.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X10.jp2",
+        "tamanho": [
+          1067,
+          808
+        ],
+        "sha256_pixels": "035ba2113dff0fde433cab9cb97b060a880cc53fc83c39bca50984287d1339fb"
+      },
+      {
+        "arquivo": "assets/recurso-original-08.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X3.jp2",
+        "tamanho": [
+          1331,
+          749
+        ],
+        "sha256_pixels": "b356a2b66093678158c542a12f56e7060baafcd103a2885812b274fdd4688b48"
+      },
+      {
+        "arquivo": "assets/recurso-original-09.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          96,
+          96
+        ],
+        "sha256_pixels": "44491edc1e5662a6d27b2ad160987cd0051def032d70d2a940bc1184a002c60f"
+      },
+      {
+        "arquivo": "assets/marca-unifor-branca.png",
+        "origem": "referencias/prototipo_original/Home.pdf",
+        "metodo": "Recorte isolado da marca no cabeçalho; fundo azul convertido em transparência, proporções preservadas.",
+        "tamanho": [
+          86,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_5_estaticos/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "arquivo": "assets/recurso-original-05.png",
+    "origem": "rodada_5_estaticos/assets/recurso-original-05.png",
+    "sha256": "34a69c99f58d95434c8f28f0298b5d08192755a3d1082aa41e87953387b3786e"
+  },
+  {
+    "catalogoOrigem": "rodada_5_estaticos/assets/ORIGEM_ASSETS.json",
+    "conteudo": [
+      {
+        "arquivo": "assets/recurso-original-00.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          1112,
+          536
+        ],
+        "sha256_pixels": "ed21fb53b5e6ce27a11198cf2c268d2775e2a6df823133574dd07ca30f5bb33f"
+      },
+      {
+        "arquivo": "assets/recurso-original-02.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X8.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "1da550989128198642ab5a7b1febb93adb2d3ad199d43136e7a9756e25410406"
+      },
+      {
+        "arquivo": "assets/recurso-original-04.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X5.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "15d1d572a66c0e1aac3eab75f3b9b2622ece009fc814c1f50426184d858f433e"
+      },
+      {
+        "arquivo": "assets/recurso-original-05.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X10.jp2",
+        "tamanho": [
+          1067,
+          808
+        ],
+        "sha256_pixels": "035ba2113dff0fde433cab9cb97b060a880cc53fc83c39bca50984287d1339fb"
+      },
+      {
+        "arquivo": "assets/recurso-original-08.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X3.jp2",
+        "tamanho": [
+          1331,
+          749
+        ],
+        "sha256_pixels": "b356a2b66093678158c542a12f56e7060baafcd103a2885812b274fdd4688b48"
+      },
+      {
+        "arquivo": "assets/recurso-original-09.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          96,
+          96
+        ],
+        "sha256_pixels": "44491edc1e5662a6d27b2ad160987cd0051def032d70d2a940bc1184a002c60f"
+      },
+      {
+        "arquivo": "assets/marca-unifor-branca.png",
+        "origem": "referencias/prototipo_original/Home.pdf",
+        "metodo": "Recorte isolado da marca no cabeçalho; fundo azul convertido em transparência, proporções preservadas.",
+        "tamanho": [
+          86,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_6_estaticos/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "arquivo": "assets/recurso-original-05.png",
+    "origem": "rodada_6_estaticos/assets/recurso-original-05.png",
+    "sha256": "34a69c99f58d95434c8f28f0298b5d08192755a3d1082aa41e87953387b3786e"
+  },
+  {
+    "catalogoOrigem": "rodada_6_estaticos/assets/ORIGEM_ASSETS.json",
+    "conteudo": [
+      {
+        "arquivo": "assets/recurso-original-00.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          1112,
+          536
+        ],
+        "sha256_pixels": "ed21fb53b5e6ce27a11198cf2c268d2775e2a6df823133574dd07ca30f5bb33f"
+      },
+      {
+        "arquivo": "assets/recurso-original-02.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X8.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "1da550989128198642ab5a7b1febb93adb2d3ad199d43136e7a9756e25410406"
+      },
+      {
+        "arquivo": "assets/recurso-original-04.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X5.jp2",
+        "tamanho": [
+          1170,
+          780
+        ],
+        "sha256_pixels": "15d1d572a66c0e1aac3eab75f3b9b2622ece009fc814c1f50426184d858f433e"
+      },
+      {
+        "arquivo": "assets/recurso-original-05.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X10.jp2",
+        "tamanho": [
+          1067,
+          808
+        ],
+        "sha256_pixels": "035ba2113dff0fde433cab9cb97b060a880cc53fc83c39bca50984287d1339fb"
+      },
+      {
+        "arquivo": "assets/recurso-original-08.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X3.jp2",
+        "tamanho": [
+          1331,
+          749
+        ],
+        "sha256_pixels": "b356a2b66093678158c542a12f56e7060baafcd103a2885812b274fdd4688b48"
+      },
+      {
+        "arquivo": "assets/recurso-original-09.png",
+        "origem": "referencias/prototipo_original/Search-results.pdf",
+        "objeto_pdf": "X1.jp2",
+        "tamanho": [
+          96,
+          96
+        ],
+        "sha256_pixels": "44491edc1e5662a6d27b2ad160987cd0051def032d70d2a940bc1184a002c60f"
+      },
+      {
+        "arquivo": "assets/marca-unifor-branca.png",
+        "origem": "referencias/prototipo_original/Home.pdf",
+        "metodo": "Recorte isolado da marca no cabeçalho; fundo azul convertido em transparência, proporções preservadas.",
+        "tamanho": [
+          86,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_7_estaticos/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "arquivo": "assets/login-bandeiras.png",
+    "origem": "rodada_8_estaticos/assets/login-bandeiras.png",
+    "sha256": "cdfcd800fb11ab09db77c8ec31d86dc8860aa344c1e310bcc5b33c2004b939f6"
+  },
+  {
+    "arquivo": "assets/marca-unifor-branca.png",
+    "origem": "rodada_8_estaticos/assets/marca-unifor-branca.png",
+    "sha256": "f949809398927e2aacfec25e12fa7b351e8da2a0dc76cfd0964cb3325f5ad930"
+  },
+  {
+    "catalogoOrigem": "rodada_8_estaticos/assets/ORIGEM_ASSETS.json",
+    "conteudo": {
+      "marca": "Cópia idêntica da marca já usada na R7.",
+      "bandeiras": {
+        "fonte": "referencias/prototipo_original/Login.pdf",
+        "pagina": 1,
+        "objeto": "X1.jp2",
+        "metodo": "Extração do raster incorporado; conversão de formato para PNG, sem alteração de conteúdo.",
+        "dimensoes": [
+          1169,
+          780
+        ],
+        "sha256_pdf": "60a8782759473c4e4b57c9e58148ee0c14e1875487a6e9b075e5448c196f46ae"
+      }
+    }
+  }
+]

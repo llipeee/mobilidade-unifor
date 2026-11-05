@@ -1,0 +1,190 @@
+{
+  "id": "oportunidade-publicada",
+  "nome": "Nova chamada · v1 publicada, inscrições futuras",
+  "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+  "clock": "2027-10-20T10:05:00-03:00",
+  "revision": 1,
+  "carteira": "chamada",
+  "entities": {
+    "edicoes": {
+      "EX-04/2028": {
+        "id": "EX-04/2028",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": "CV-2027-004",
+        "destino": "Universidade Atlântica do Norte",
+        "pais": "Portugal",
+        "cidade": "Porto",
+        "area": "Computação",
+        "capacidade": 3,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {},
+        "versaoAtual": 1,
+        "versoes": [
+          {
+            "numero": 1,
+            "destino": "Universidade Atlântica do Norte",
+            "pais": "Portugal",
+            "cidade": "Porto",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2027-11-01T08:00:00-03:00",
+            "fim": "2027-11-30T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [
+              {
+                "id": "historico",
+                "titulo": "Histórico acadêmico",
+                "obrigatorio": true
+              },
+              {
+                "id": "carta",
+                "titulo": "Carta de motivação",
+                "obrigatorio": true
+              },
+              {
+                "id": "proficiencia",
+                "titulo": "Comprovante de proficiência em inglês B1",
+                "obrigatorio": true
+              }
+            ],
+            "proficiencia": "Inglês B1",
+            "edital": "pdf-da78c25f7c87b6",
+            "criterios": [
+              {
+                "id": "matricula",
+                "nome": "Matrícula ativa",
+                "exigencia": "Matrícula ativa na Unifor."
+              },
+              {
+                "id": "integralizacao",
+                "nome": "Integralização do curso",
+                "exigencia": "De 30% a 70%, inclusive."
+              },
+              {
+                "id": "pmg",
+                "nome": "PMG",
+                "exigencia": "Igual ou superior a 7,0."
+              },
+              {
+                "id": "reprovacoes",
+                "nome": "Fluxo contínuo",
+                "exigencia": "Ausência de reprovações no fluxo contínuo."
+              }
+            ],
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "confirmacao": {
+              "autor": "Marcos Lima",
+              "autorId": "GI-004",
+              "data": "20/10/2027",
+              "hora": "10:00:00",
+              "instante": "2027-10-20T10:00:00-03:00"
+            }
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [],
+        "historico": [
+          {
+            "data": "15/10/2027",
+            "hora": "10:02:00",
+            "instante": "2027-10-15T10:02:00-03:00",
+            "titulo": "Convênio cadastrado",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "CV-2027-004 confirmado; nenhuma oportunidade publicada automaticamente."
+          },
+          {
+            "data": "20/10/2027",
+            "hora": "10:00:00",
+            "instante": "2027-10-20T10:00:00-03:00",
+            "titulo": "Oportunidade publicada · v1",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "EX-04/2028 publicada. Inscrições começam em 01/11/2027, às 08:00. Capacidade única de 3 vagas."
+          }
+        ],
+        "dadosCompletos": true,
+        "propostaInicial": null
+      }
+    },
+    "candidaturas": {},
+    "bolsas": {},
+    "concessoes": {},
+    "convenios": {
+      "CV-2027-004": {
+        "id": "CV-2027-004",
+        "rev": 1,
+        "instituicaoId": "INST-ATN",
+        "instituicao": "Universidade Atlântica do Norte",
+        "pais": "Portugal",
+        "areas": [
+          "Computação",
+          "Sistemas de Informação"
+        ],
+        "inicio": "2027-10-01",
+        "fim": "2029-09-30",
+        "documento": "pdf-3c15b20821d13c",
+        "ativo": true,
+        "confirmado": true,
+        "historico": [
+          {
+            "data": "15/10/2027",
+            "hora": "10:02:00",
+            "instante": "2027-10-15T10:02:00-03:00",
+            "titulo": "Convênio cadastrado",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "CV-2027-004 confirmado; nenhuma oportunidade publicada automaticamente."
+          },
+          {
+            "data": "20/10/2027",
+            "hora": "10:00:00",
+            "instante": "2027-10-20T10:00:00-03:00",
+            "titulo": "Oportunidade publicada · v1",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "EX-04/2028 publicada. Inscrições começam em 01/11/2027, às 08:00. Capacidade única de 3 vagas."
+          }
+        ]
+      }
+    },
+    "instituicoes": {
+      "INST-ATN": {
+        "id": "INST-ATN",
+        "nome": "Universidade Atlântica do Norte",
+        "pais": "Portugal",
+        "cidade": "Porto",
+        "rev": 1,
+        "areas": [
+          "Computação",
+          "Sistemas de Informação"
+        ],
+        "historico": []
+      }
+    },
+    "mobilidades": {},
+    "pedidos": {},
+    "materiais": {},
+    "eventos": {},
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {},
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {
+    "CV-2027": 4
+  },
+  "initial": {
+    "gestao": "oportunidades"
+  },
+  "samples": []
+}

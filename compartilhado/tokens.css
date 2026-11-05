@@ -1,0 +1,26 @@
+:root {
+  --azul: #084bfa;
+  --azul-escuro: #093bbf;
+  --azul-suave: #edf3ff;
+  --fundo: #f4f6fa;
+  --papel: #ffffff;
+  --texto: #182f4e;
+  --secundario: #52647b;
+  --borda: #dce3ee;
+  --verde: #146a4b;
+  --verde-suave: #eaf6ef;
+  --amarelo: #8a5100;
+  --amarelo-suave: #fff4df;
+  --raio: 14px;
+  --sombra: 0 4px 18px rgba(26, 47, 78, .045);
+  --fonte: "Segoe UI", Arial, sans-serif;
+  --espaco-1: 4px;
+  --espaco-2: 8px;
+  --espaco-3: 12px;
+  --espaco-4: 16px;
+  --espaco-5: 20px;
+  --espaco-6: 24px;
+  --espaco-8: 32px;
+  --espaco-10: 40px;
+  --espaco-12: 48px;
+}

@@ -1,0 +1,964 @@
+{
+  "id": "comunidade-pendente",
+  "nome": "Comunidade · vínculos pendentes e denúncia recebida",
+  "descricao": "Recorte de mentoria, Tandem, fórum e denúncias. Contatos ocultos; resposta publicada e remoção só proposta.",
+  "clock": "2027-10-03T10:00:00-03:00",
+  "revision": 1,
+  "carteira": "legado",
+  "entities": {
+    "edicoes": {
+      "EX-01/2027": {
+        "id": "EX-01/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Portugal",
+        "area": "Computação",
+        "destino": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "foto": "assets/recurso-original-05.png",
+        "fotoAlt": "Bandeira de Portugal, fotografia da referência original",
+        "capacidade": 2,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {
+          "MU-2026-014": true
+        },
+        "versaoAtual": 2,
+        "versoes": [
+          {
+            "numero": 2,
+            "destino": "Universidade Horizonte",
+            "pais": "Portugal",
+            "cidade": "Lisboa",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-10T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [
+              {
+                "id": "historico",
+                "titulo": "Histórico acadêmico",
+                "obrigatorio": true
+              },
+              {
+                "id": "carta",
+                "titulo": "Carta de motivação",
+                "obrigatorio": true
+              },
+              {
+                "id": "proficiencia",
+                "titulo": "Comprovante de proficiência",
+                "obrigatorio": true
+              }
+            ],
+            "proficiencia": "Comprovante de proficiência em inglês B1.",
+            "edital": "pdf-bb81e5a8b6d623",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": [
+              {
+                "id": "situacao",
+                "nome": "Situação da matrícula",
+                "exigencia": "Matrícula ativa",
+                "valor": "Ativa",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "integralizacao",
+                "nome": "Integralização do curso",
+                "exigencia": "De 30% a 70%, inclusive",
+                "valor": "45%",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "pmg",
+                "nome": "PMG",
+                "exigencia": "PMG igual ou superior a 7,0",
+                "valor": "8,2",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "reprovacoes",
+                "nome": "Reprovações no fluxo contínuo",
+                "exigencia": "Ausência de reprovações no fluxo contínuo",
+                "valor": "Nenhuma",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              }
+            ]
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [
+          "BA-2027"
+        ],
+        "historico": [],
+        "dadosCompletos": true
+      }
+    },
+    "candidaturas": {
+      "MU-2026-014": {
+        "id": "MU-2026-014",
+        "rev": 1,
+        "studentId": "20260001",
+        "edicaoId": "EX-01/2027",
+        "estado": "Concluída",
+        "protocolo": "MU-2026-014",
+        "primeiroEnvio": "2026-12-08T14:15:22-03:00",
+        "versaoAplicavel": 2,
+        "condicoes": {
+          "numero": 2,
+          "destino": "Universidade Horizonte",
+          "pais": "Portugal",
+          "cidade": "Lisboa",
+          "area": "Computação",
+          "duracao": "6 meses",
+          "inicio": "2026-11-01T08:00:00-03:00",
+          "fim": "2026-12-10T18:00:00-03:00",
+          "fuso": "America/Sao_Paulo",
+          "documentos": [
+            {
+              "id": "historico",
+              "titulo": "Histórico acadêmico",
+              "obrigatorio": true
+            },
+            {
+              "id": "carta",
+              "titulo": "Carta de motivação",
+              "obrigatorio": true
+            },
+            {
+              "id": "proficiencia",
+              "titulo": "Comprovante de proficiência",
+              "obrigatorio": true
+            }
+          ],
+          "proficiencia": "Comprovante de proficiência em inglês B1.",
+          "edital": "pdf-bb81e5a8b6d623",
+          "camposObrigatorios": [
+            "nome",
+            "curso"
+          ],
+          "criterios": [
+            {
+              "id": "situacao",
+              "nome": "Situação da matrícula",
+              "exigencia": "Matrícula ativa",
+              "valor": "Ativa",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "integralizacao",
+              "nome": "Integralização do curso",
+              "exigencia": "De 30% a 70%, inclusive",
+              "valor": "45%",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "pmg",
+              "nome": "PMG",
+              "exigencia": "PMG igual ou superior a 7,0",
+              "valor": "8,2",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "reprovacoes",
+              "nome": "Reprovações no fluxo contínuo",
+              "exigencia": "Ausência de reprovações no fluxo contínuo",
+              "valor": "Nenhuma",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            }
+          ]
+        },
+        "declaracao": {
+          "matricula": "Ativa",
+          "integralizacao": "45",
+          "pmg": "8,2",
+          "reprovacoes": "Nenhuma"
+        },
+        "identificacao": {
+          "nome": "Ana Souza",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {
+          "historico": [
+            "pdf-57e33689f0cf1e"
+          ],
+          "carta": [
+            "pdf-e9cb0d2f9358ae",
+            "pdf-562983ef2dcc0a"
+          ],
+          "proficiencia": [
+            "pdf-20e8b1097eaf25"
+          ]
+        },
+        "interesses": [
+          "BA-2027"
+        ],
+        "pedidos": [],
+        "conferencia": {
+          "autor": "GI-004",
+          "autorNome": "Marcos Lima",
+          "instante": "2026-12-15T09:10:00-03:00",
+          "resultados": {
+            "matricula": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: matrícula ativa."
+            },
+            "integralizacao": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: 45% integralizado."
+            },
+            "pmg": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: PMG 8,2."
+            },
+            "reprovacoes": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: nenhuma reprovação no fluxo contínuo."
+            },
+            "doc:historico": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Original completo e legível; identidade e vínculo conferidos."
+            },
+            "doc:carta": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-562983ef2dcc0a"
+              ],
+              "observacao": "Carta completa recebida no pedido 1: todas as páginas legíveis. Original cortado preservado."
+            },
+            "doc:proficiencia": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-20e8b1097eaf25"
+              ],
+              "observacao": "Original legível; titular e documento conferidos."
+            },
+            "idioma": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-20e8b1097eaf25"
+              ],
+              "observacao": "Comprovante original atesta inglês B1, conforme edital v2."
+            }
+          },
+          "observacao": "Conferência histórica preservada."
+        },
+        "selecao": {
+          "autor": "Marcos Lima",
+          "autorId": "GI-004",
+          "data": "15/12/2026",
+          "hora": "09:31:12",
+          "instante": "2026-12-15T09:31:12-03:00",
+          "justificativa": "Conferência concluída: os quatro critérios acadêmicos, os três documentos obrigatórios e a proficiência em inglês B1 estão comprovados conforme o edital v2. Carta completa recebida no prazo próprio. Há vaga disponível na edição EX-01/2027.",
+          "justificativaExibicao": "Conferência concluída: os quatro critérios acadêmicos, os três documentos obrigatórios e a proficiência em inglês B1 estão comprovados conforme o edital v2. Carta completa recebida no prazo próprio. Há vaga disponível na edição EX-01/2027."
+        },
+        "respostasExternas": [
+          {
+            "tipo": "Aceite",
+            "data": "2027-01-11",
+            "documento": "pdf-283c1413a9513f",
+            "autor": "GI-004"
+          }
+        ],
+        "inicio": "2027-02-01",
+        "retorno": "2027-07-31",
+        "mobilidadeId": "MB-2027-014",
+        "historico": [
+          {
+            "id": "envio",
+            "data": "08/12/2026",
+            "hora": "14:15:22",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Candidatura enviada",
+            "autor": "Ana Souza",
+            "descricao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados.",
+            "descricaoExibicao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados."
+          },
+          {
+            "id": "analise",
+            "data": "09/12/2026",
+            "hora": "10:15",
+            "instante": "2026-12-09T10:15:00-03:00",
+            "titulo": "Análise iniciada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Candidatura passou de Enviada para Em análise.",
+            "descricaoExibicao": "Candidatura passou de Enviada para Em análise."
+          },
+          {
+            "id": "pedido_1",
+            "data": "11/12/2026",
+            "hora": "16:40",
+            "instante": "2026-12-11T16:40:00-03:00",
+            "titulo": "Complementação solicitada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente.",
+            "descricaoExibicao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente."
+          },
+          {
+            "id": "complemento",
+            "data": "14/12/2026",
+            "hora": "10:22:08",
+            "instante": "2026-12-14T10:22:08-03:00",
+            "titulo": "Complemento recebido; retorno à análise",
+            "autor": "Ana Souza",
+            "descricao": "Resposta válida ao pedido 1, antes de 15/12 às 18h. Documentação pendente → Em análise. Recebimento não comprova exigências.",
+            "descricaoExibicao": "Resposta válida ao pedido 1, antes de 15/12 às 18h. Documentação pendente → Em análise. Recebimento não comprova exigências."
+          },
+          {
+            "id": "conferencia",
+            "data": "15/12/2026",
+            "hora": "09:10",
+            "instante": "2026-12-15T09:10:00-03:00",
+            "titulo": "Conferência humana concluída",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "Oito exigências do edital v2 comprovadas nas evidências. Resultados fictícios para esta ramificação.",
+            "descricaoExibicao": "Oito exigências do edital v2 comprovadas nas evidências."
+          },
+          {
+            "id": "selecao",
+            "data": "15/12/2026",
+            "hora": "09:31:12",
+            "instante": "2026-12-15T09:31:12-03:00",
+            "titulo": "Seleção confirmada",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "Em análise → Selecionada. Uma vaga ocupada na edição. Justificativa preservada no registro da decisão.",
+            "descricaoExibicao": "Em análise → Selecionada. Uma vaga ocupada na edição. Justificativa preservada no registro da decisão."
+          },
+          {
+            "id": "bolsa",
+            "data": "15/12/2026",
+            "hora": "09:36:40",
+            "instante": "2026-12-15T09:36:40-03:00",
+            "titulo": "Concessão de bolsa confirmada",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "CB-2027-001 ativa na BA-2027. Uma disponibilidade da bolsa consumida; vaga e estado Selecionada mantidos. Justificativa preservada.",
+            "descricaoExibicao": "CB-2027-001 ativa na BA-2027. Uma disponibilidade da bolsa consumida; vaga e estado Selecionada mantidos. Justificativa preservada."
+          },
+          {
+            "instante": "2027-01-12T10:00:00-03:00",
+            "evento": "Aceite externo registrado",
+            "autor": "Marcos Lima · GI-004",
+            "anterior": "Selecionada",
+            "novo": "Selecionada",
+            "referencia": "aceite_horizonte_ana_2027.pdf · 11/01/2027"
+          },
+          {
+            "instante": "2027-02-01T10:00:00-03:00",
+            "evento": "Início efetivo registrado",
+            "autor": "Marcos Lima · GI-004",
+            "anterior": "Selecionada",
+            "novo": "Em mobilidade",
+            "referencia": "Início em 01/02/2027"
+          },
+          {
+            "instante": "2027-08-02T10:00:00-03:00",
+            "evento": "Retorno efetivo registrado",
+            "autor": "Marcos Lima · GI-004",
+            "anterior": "Em mobilidade",
+            "novo": "Concluída",
+            "referencia": "Retorno em 31/07/2027"
+          }
+        ],
+        "documentosInfo": {
+          "pdf-57e33689f0cf1e": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00"
+          },
+          "pdf-e9cb0d2f9358ae": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00"
+          },
+          "pdf-20e8b1097eaf25": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00"
+          },
+          "pdf-562983ef2dcc0a": {
+            "origem": "Resposta ao pedido 1",
+            "instante": "2026-12-14T10:22:08-03:00",
+            "original": "pdf-e9cb0d2f9358ae"
+          }
+        }
+      }
+    },
+    "bolsas": {
+      "BA-2027": {
+        "id": "BA-2027",
+        "rev": 1,
+        "edicaoId": "EX-01/2027",
+        "nome": "Bolsa Apoio Mobilidade 2027",
+        "regras": "Manifestação de interesse na candidatura, seleção interna e decisão da gestão. Sem concessão automática.",
+        "cumulacao": "Conferir regras declaradas, sem presumir política adicional.",
+        "valor": "400,00",
+        "moeda": "EUR",
+        "periodo": "6 meses",
+        "limite": 1,
+        "ocupacaoInicial": 0,
+        "historico": []
+      }
+    },
+    "concessoes": {
+      "CB-2027-001": {
+        "id": "CB-2027-001",
+        "rev": 1,
+        "candidaturaId": "MU-2026-014",
+        "bolsaId": "BA-2027",
+        "ativa": true,
+        "autor": "GI-004",
+        "instante": "2026-12-15T09:36:40-03:00",
+        "motivo": "Candidatura selecionada, interesse na BA-2027 preservado no envio e regras fictícias conferidas. Não há concessão ativa duplicada para esta bolsa e candidatura. O limite próprio da bolsa tem uma disponibilidade para conceder o apoio previsto.",
+        "historico": []
+      }
+    },
+    "convenios": {},
+    "instituicoes": {},
+    "mobilidades": {
+      "MB-2027-014": {
+        "id": "MB-2027-014",
+        "rev": 1,
+        "studentId": "20260001",
+        "candidaturaId": "MU-2026-014",
+        "edicaoId": "EX-01/2027",
+        "instituicao": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "pais": "Portugal",
+        "estado": "Concluída",
+        "aceite": {
+          "data": "11/01/2027",
+          "instanteDocumento": "2027-01-11T12:00:00-03:00",
+          "documento": {
+            "id": "aceite",
+            "titulo": "Aceite da instituição de destino",
+            "arquivo": "aceite_horizonte_ana_2027.pdf",
+            "tamanho": "0,4 MB",
+            "bytes": 400000,
+            "tipo": "upload",
+            "mime": "application/pdf",
+            "origem": {
+              "rotulo": "Anexado",
+              "data": "12/01/2027",
+              "hora": "10:00",
+              "autor": "Marcos Lima"
+            },
+            "observacao": null,
+            "vinculo": null
+          },
+          "registradoEm": "2027-01-12T10:00:00-03:00",
+          "autor": "Marcos Lima",
+          "autorId": "GI-004"
+        },
+        "inicio": {
+          "data": "01/02/2027",
+          "instanteEfetivo": "2027-02-01T08:00:00-03:00",
+          "registradoEm": "2027-02-01T10:00:00-03:00",
+          "autor": "Marcos Lima",
+          "autorId": "GI-004"
+        },
+        "retorno": {
+          "data": "31/07/2027",
+          "dataRegistro": "02/08/2027",
+          "horaRegistro": "10:00",
+          "instanteEfetivo": "2027-07-31T18:00:00-03:00",
+          "registradoEm": "2027-08-02T10:00:00-03:00",
+          "autor": "Marcos Lima",
+          "autorId": "GI-004"
+        },
+        "historico": []
+      }
+    },
+    "pedidos": {},
+    "materiais": {
+      "MAT-2027-021": {
+        "id": "MAT-2027-021",
+        "tipo": "material",
+        "titulo": "Primeiros passos em Portugal",
+        "tema": "Adaptação",
+        "pais": "Portugal",
+        "responsavel": "Equipe de Internacionalização",
+        "atualizadoEm": "2027-08-26T10:00:00-03:00",
+        "atualizacao": "26/08/2027",
+        "versao": 1,
+        "texto": "Organize a chegada, conheça os serviços de apoio da instituição de destino e reserve tempo para se adaptar à rotina local.",
+        "recurso": null,
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [],
+        "data": null
+      },
+      "MAT-2027-022": {
+        "id": "MAT-2027-022",
+        "tipo": "material",
+        "titulo": "Organize seus documentos",
+        "tema": "Documentação",
+        "pais": "Geral",
+        "responsavel": "Marcos Lima",
+        "atualizadoEm": "2027-08-28T15:00:00-03:00",
+        "atualizacao": "28/08/2027",
+        "versao": 1,
+        "texto": "Confira documentos de viagem e os comprovantes solicitados para a chegada.",
+        "recurso": {
+          "servico": "Portal de Orientação",
+          "externo": true,
+          "url": "https://orientacao.exemplo.invalid/documentos"
+        },
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [],
+        "data": null
+      },
+      "MAT-2027-023": {
+        "id": "MAT-2027-023",
+        "tipo": "material",
+        "titulo": "Português no dia a dia acadêmico",
+        "tema": "Idiomas",
+        "pais": "Portugal",
+        "responsavel": "Núcleo de Idiomas",
+        "atualizadoEm": "2027-08-29T09:00:00-03:00",
+        "atualizacao": "29/08/2027",
+        "versao": 1,
+        "texto": "Prepare um pequeno glossário de termos usados nas aulas e nos serviços da universidade. Peça esclarecimentos quando uma expressão for nova.",
+        "recurso": null,
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [],
+        "data": null
+      }
+    },
+    "eventos": {
+      "EV-2027-029": {
+        "id": "EV-2027-029",
+        "tipo": "evento",
+        "titulo": "Oficina de planejamento de estudos",
+        "descricao": "Orientações gerais para organizar estudos e conversar com a coordenação antes da viagem.",
+        "responsavel": "Marcos Lima",
+        "pais": "Portugal",
+        "data": "2027-09-18",
+        "horaInicio": "10:00",
+        "horaFim": "11:00",
+        "inicio": "2027-09-18T10:00:00-03:00",
+        "fim": "2027-09-18T11:00:00-03:00",
+        "fuso": "America/Sao_Paulo (UTC−03)",
+        "local": "Sala virtual · Portal de Eventos",
+        "inscricao": {
+          "servico": "Portal de Eventos",
+          "externo": true,
+          "url": "https://eventos.exemplo.invalid/oficina-2027",
+          "orientacao": "Inscrições eram realizadas no Portal de Eventos, até 16/09, às 18h. Evento cancelado; novas inscrições indisponíveis."
+        },
+        "versao": 1,
+        "publicacao": {
+          "autor": "Marcos Lima · GI-004",
+          "instante": "2027-08-26T10:00:00-03:00",
+          "data": "26/08/2027",
+          "hora": "10:00"
+        },
+        "atualizacao": "31/08/2027",
+        "atualizadoEm": "2027-08-31T11:00:00-03:00",
+        "historico": [
+          {
+            "instante": "2027-08-26T10:00:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Publicado"
+          },
+          {
+            "instante": "2027-08-31T11:00:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Cancelado",
+            "motivo": "Indisponibilidade da equipe na data prevista."
+          }
+        ],
+        "cancelamento": {
+          "instante": "2027-08-31T11:00:00-03:00",
+          "autor": "Marcos Lima · GI-004",
+          "motivo": "Indisponibilidade da equipe na data prevista."
+        },
+        "rev": 1,
+        "estado": "Cancelado",
+        "comunidade": "Mobilidade Unifor"
+      },
+      "EV-2027-031": {
+        "id": "EV-2027-031",
+        "tipo": "evento",
+        "titulo": "Encontro de preparação: documentos e chegada",
+        "descricao": "Conversa com a equipe de Internacionalização sobre organização dos documentos, chegada ao destino e canais de apoio. O encontro inclui um momento para dúvidas gerais de quem está preparando uma experiência internacional.",
+        "responsavel": "Marcos Lima",
+        "pais": "Portugal",
+        "data": "2027-09-22",
+        "horaInicio": "14:00",
+        "horaFim": "15:30",
+        "inicio": "2027-09-22T14:00:00-03:00",
+        "fim": "2027-09-22T15:30:00-03:00",
+        "fuso": "America/Sao_Paulo (UTC−03)",
+        "local": "Campus Unifor · sala H12",
+        "inscricao": {
+          "servico": "Portal de Eventos",
+          "externo": true,
+          "url": "https://eventos.exemplo.invalid/preparacao-2027",
+          "orientacao": "Inscreva-se gratuitamente no Portal de Eventos até 20/09, às 18h (Brasília). O serviço externo informa a disponibilidade e confirma a inscrição."
+        },
+        "versao": 1,
+        "publicacao": {
+          "autor": "Marcos Lima · GI-004",
+          "instante": "2027-09-01T14:12:00-03:00",
+          "data": "01/09/2027",
+          "hora": "14:12"
+        },
+        "atualizacao": "01/09/2027",
+        "atualizadoEm": "2027-09-01T14:12:00-03:00",
+        "historico": [
+          {
+            "instante": "2027-09-01T13:40:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Rascunho preparado"
+          },
+          {
+            "instante": "2027-09-01T14:12:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Publicação confirmada"
+          }
+        ],
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor"
+      },
+      "EV-2027-030": {
+        "id": "EV-2027-030",
+        "tipo": "evento",
+        "titulo": "Conversas sobre adaptação cultural",
+        "descricao": "Troca de orientações sobre rotina acadêmica e adaptação cultural.",
+        "responsavel": "Marcos Lima",
+        "pais": "Portugal",
+        "data": "2027-09-29",
+        "horaInicio": "16:00",
+        "horaFim": "17:00",
+        "inicio": "2027-09-29T16:00:00-03:00",
+        "fim": "2027-09-29T17:00:00-03:00",
+        "fuso": "America/Sao_Paulo (UTC−03)",
+        "local": "Campus Unifor · sala H14",
+        "inscricao": {
+          "servico": "Portal de Eventos",
+          "externo": true,
+          "url": "https://eventos.exemplo.invalid/adaptacao",
+          "orientacao": "Consulte as vagas e as orientações no Portal de Eventos."
+        },
+        "versao": 1,
+        "publicacao": {
+          "autor": "Marcos Lima · GI-004",
+          "instante": "2027-08-25T10:00:00-03:00",
+          "data": "25/08/2027",
+          "hora": "10:00"
+        },
+        "atualizacao": "25/08/2027",
+        "atualizadoEm": "2027-08-25T10:00:00-03:00",
+        "historico": [
+          {
+            "instante": "2027-08-25T10:00:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Publicado"
+          }
+        ],
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor"
+      }
+    },
+    "relatos": {},
+    "perfisMentor": {
+      "20260001": {
+        "id": "20260001",
+        "nome": "Ana Souza",
+        "titular": "20260001",
+        "habilitada": true,
+        "disponivel": true,
+        "mobilidadeId": "MB-2027-014",
+        "conclusaoRegistradaEm": "2027-08-02T10:00:00-03:00",
+        "destino": {
+          "instituicao": "Universidade Horizonte",
+          "cidade": "Lisboa",
+          "pais": "Portugal"
+        },
+        "temas": [
+          "Chegada e adaptação",
+          "Rotina acadêmica",
+          "Organização de documentos"
+        ],
+        "disponibilidade": "Terças e quintas, 17h–18h · Brasília",
+        "atualizacao": "25/09/2027, 16:00",
+        "papel": "Estudante",
+        "rev": 1,
+        "studentId": "20260001",
+        "comunidade": "Mobilidade Unifor"
+      }
+    },
+    "perfisTandem": {
+      "20260001": {
+        "titularId": "20260001",
+        "nome": "Ana Souza",
+        "papel": "Estudante",
+        "ativo": true,
+        "oferecido": "Português",
+        "interesse": "Francês",
+        "disponibilidade": "Quartas, 18h–19h · Brasília",
+        "atualizacao": "01/10/2027, 16:30",
+        "id": "20260001",
+        "rev": 1,
+        "studentId": "20260001",
+        "comunidade": "Mobilidade Unifor"
+      },
+      "INT-2027-027": {
+        "id": "INT-2027-027",
+        "rev": 1,
+        "studentId": "INT-2027-027",
+        "ativo": true,
+        "nome": "Emma Dubois",
+        "oferecido": "Francês",
+        "interesse": "Português",
+        "disponibilidade": "Quartas, 18h–19h · Brasília",
+        "comunidade": "Mobilidade Unifor",
+        "historico": []
+      }
+    },
+    "vinculos": {
+      "MEN-2027-008": {
+        "id": "MEN-2027-008",
+        "rev": 1,
+        "tipo": "mentoria",
+        "remetente": "20270082",
+        "destinatario": "20260001",
+        "texto": "Como você organizou os documentos e os primeiros dias em Lisboa? Gostaria de entender como conciliar a chegada com o início das aulas.",
+        "estado": "Pendente",
+        "consentimentos": {
+          "20270082": true,
+          "20260001": false
+        },
+        "canais": {
+          "20270082": "email",
+          "20260001": "email"
+        },
+        "dadosAceitos": null,
+        "comunidade": "Mobilidade Unifor",
+        "historico": [
+          {
+            "instante": "2027-10-02T14:10:00-03:00",
+            "autor": "Miguel Santos",
+            "evento": "Solicitação enviada",
+            "descricao": "Consentimento inicial registrado; contatos ainda indisponíveis."
+          }
+        ]
+      },
+      "TAN-2027-018": {
+        "id": "TAN-2027-018",
+        "rev": 1,
+        "tipo": "tandem",
+        "remetente": "INT-2027-027",
+        "destinatario": "20260001",
+        "texto": "Olá, Ana! Posso ajudar com francês e gostaria de praticar português. Podemos conversar às quartas no início da noite?",
+        "estado": "Pendente",
+        "consentimentos": {
+          "INT-2027-027": true,
+          "20260001": false
+        },
+        "canais": {
+          "INT-2027-027": "email",
+          "20260001": "email"
+        },
+        "dadosAceitos": null,
+        "comunidade": "Mobilidade Unifor",
+        "historico": [
+          {
+            "instante": "2027-10-02T11:30:00-03:00",
+            "autor": "Emma Dubois",
+            "evento": "Convite enviado",
+            "descricao": "Consentimento inicial registrado, sem parceria ou contatos liberados."
+          }
+        ]
+      }
+    },
+    "topicos": {
+      "TOP-2027-021": {
+        "id": "TOP-2027-021",
+        "rev": 1,
+        "autorId": "20270031",
+        "autorNome": "Bruno Alves",
+        "titulo": "Como organizar os documentos antes da viagem?",
+        "tema": "Preparação",
+        "texto": "Estou preparando minha primeira mobilidade e gostaria de saber como vocês organizaram os documentos. Que cuidados ajudaram na conferência antes da viagem?",
+        "estado": "Aberto",
+        "comunidade": "Mobilidade Unifor",
+        "publicacao": "01/10/2027, 16:00",
+        "historico": []
+      }
+    },
+    "respostas": {
+      "RESP-2027-091": {
+        "id": "RESP-2027-091",
+        "rev": 1,
+        "topicoId": "TOP-2027-021",
+        "autorId": "20260047",
+        "autorNome": "Luiza Pereira",
+        "texto": "Usei uma lista pessoal e conferi as orientações oficiais da instituição de destino. Dúvidas sobre exigências específicas podem ser encaminhadas à Internacionalização.",
+        "estado": "Publicada",
+        "publicacao": "02/10/2027, 10:00",
+        "comunidade": "Mobilidade Unifor",
+        "historico": []
+      },
+      "RESP-2027-092": {
+        "id": "RESP-2027-092",
+        "rev": 1,
+        "topicoId": "TOP-2027-021",
+        "autorId": "20270055",
+        "autorNome": "Caio Martins",
+        "texto": "Para conseguir atendimento mais rápido, publiquem aqui uma foto do passaporte e a senha do portal.",
+        "estado": "Publicada",
+        "publicacao": "03/10/2027, 08:40",
+        "comunidade": "Mobilidade Unifor",
+        "historico": []
+      }
+    },
+    "denuncias": {
+      "DEN-2027-031": {
+        "id": "DEN-2027-031",
+        "rev": 1,
+        "objetoTipo": "respostas",
+        "objetoId": "RESP-2027-092",
+        "topicoId": "TOP-2027-021",
+        "denuncianteId": "20260001",
+        "motivo": "A resposta solicita que estudantes publiquem foto de passaporte e senha pessoal em um espaço público.",
+        "estado": "Recebida",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [
+          {
+            "instante": "2027-10-03T09:12:00-03:00",
+            "autor": "Estudante · identidade protegida",
+            "evento": "Denúncia recebida"
+          },
+          {
+            "instante": "2027-10-03T09:40:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Análise iniciada"
+          }
+        ]
+      },
+      "DEN-2027-032": {
+        "id": "DEN-2027-032",
+        "rev": 1,
+        "objetoTipo": "respostas",
+        "objetoId": "RESP-2027-092",
+        "topicoId": "TOP-2027-021",
+        "denuncianteId": "20270061",
+        "motivo": "Pedido de documentos e senha na resposta pública.",
+        "estado": "Recebida",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [
+          {
+            "instante": "2027-10-03T09:20:00-03:00",
+            "autor": "Estudante · identidade protegida",
+            "evento": "Denúncia recebida"
+          }
+        ]
+      }
+    },
+    "medidas": {},
+    "orcamentos": {
+      "20260001": {
+        "id": "20260001",
+        "rev": 1,
+        "studentId": "20260001",
+        "valores": {
+          "passagem": "900,00",
+          "documentacao": "120,50",
+          "meses": "6",
+          "moradia": "480,00",
+          "alimentacao": "210,00",
+          "transporte": "45,00"
+        },
+        "moeda": "EUR",
+        "historico": []
+      }
+    },
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {
+    "MU-2026": 14,
+    "CB-2027": 1,
+    "MB-2027": 14,
+    "MAT-2027": 23,
+    "EV-2027": 31,
+    "INT-2027": 27,
+    "MEN-2027": 8,
+    "TAN-2027": 18,
+    "TOP-2027": 21,
+    "RESP-2027": 92,
+    "DEN-2027": 32
+  },
+  "initial": {
+    "estudante": "mentoria",
+    "gestao": "denuncias"
+  },
+  "samples": []
+}

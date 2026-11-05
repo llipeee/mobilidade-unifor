@@ -1,0 +1,353 @@
+{
+  "id": "complemento-pendente",
+  "nome": "Complemento solicitado · prazo vigente",
+  "descricao": "Este ramo não sucede os outros resultados da complementação.",
+  "clock": "2026-12-12T09:10:00-03:00",
+  "revision": 1,
+  "carteira": "legado",
+  "entities": {
+    "edicoes": {
+      "EX-01/2027": {
+        "id": "EX-01/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Portugal",
+        "area": "Computação",
+        "destino": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "foto": "assets/recurso-original-05.png",
+        "fotoAlt": "Bandeira de Portugal, fotografia da referência original",
+        "capacidade": 2,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {},
+        "versaoAtual": 2,
+        "versoes": [
+          {
+            "numero": 2,
+            "destino": "Universidade Horizonte",
+            "pais": "Portugal",
+            "cidade": "Lisboa",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-10T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [
+              {
+                "id": "historico",
+                "titulo": "Histórico acadêmico",
+                "obrigatorio": true
+              },
+              {
+                "id": "carta",
+                "titulo": "Carta de motivação",
+                "obrigatorio": true
+              },
+              {
+                "id": "proficiencia",
+                "titulo": "Comprovante de proficiência",
+                "obrigatorio": true
+              }
+            ],
+            "proficiencia": "Comprovante de proficiência em inglês B1.",
+            "edital": "pdf-bb81e5a8b6d623",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": [
+              {
+                "id": "situacao",
+                "nome": "Situação da matrícula",
+                "exigencia": "Matrícula ativa",
+                "valor": "Ativa",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "integralizacao",
+                "nome": "Integralização do curso",
+                "exigencia": "De 30% a 70%, inclusive",
+                "valor": "45%",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "pmg",
+                "nome": "PMG",
+                "exigencia": "PMG igual ou superior a 7,0",
+                "valor": "8,2",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "reprovacoes",
+                "nome": "Reprovações no fluxo contínuo",
+                "exigencia": "Ausência de reprovações no fluxo contínuo",
+                "valor": "Nenhuma",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              }
+            ]
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [
+          "BA-2027"
+        ],
+        "historico": [],
+        "dadosCompletos": true
+      }
+    },
+    "candidaturas": {
+      "MU-2026-014": {
+        "id": "MU-2026-014",
+        "rev": 1,
+        "studentId": "20260001",
+        "edicaoId": "EX-01/2027",
+        "estado": "Documentação pendente",
+        "protocolo": "MU-2026-014",
+        "primeiroEnvio": "2026-12-08T14:15:22-03:00",
+        "versaoAplicavel": 2,
+        "declaracao": {
+          "matricula": "Ativa",
+          "integralizacao": "45",
+          "pmg": "8,2",
+          "reprovacoes": "Nenhuma"
+        },
+        "identificacao": {
+          "nome": "Ana Souza",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {
+          "historico": [
+            "pdf-57e33689f0cf1e"
+          ],
+          "carta": [
+            "pdf-e9cb0d2f9358ae"
+          ],
+          "proficiencia": [
+            "pdf-20e8b1097eaf25"
+          ]
+        },
+        "interesses": [
+          "BA-2027"
+        ],
+        "pedidos": [
+          {
+            "id": "PC-MU-2026-014-1",
+            "numero": 1,
+            "motivo": "A carta de motivação enviada apresenta páginas cortadas. Reenvie o documento completo e legível.",
+            "prazo": "2026-12-15T18:00:00-03:00",
+            "inicio": "2026-12-11T16:40:00-03:00",
+            "vigente": true,
+            "documentos": [
+              "carta"
+            ],
+            "respostas": [],
+            "fimMotivo": null
+          }
+        ],
+        "conferencia": null,
+        "selecao": null,
+        "respostasExternas": [],
+        "inicio": null,
+        "retorno": null,
+        "historico": [
+          {
+            "id": "envio",
+            "data": "08/12/2026",
+            "hora": "14:15:22",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Candidatura enviada",
+            "autor": "Ana Souza",
+            "descricao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados."
+          },
+          {
+            "id": "analise",
+            "data": "09/12/2026",
+            "hora": "10:15",
+            "instante": "2026-12-09T10:15:00-03:00",
+            "titulo": "Análise iniciada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Candidatura passou de Enviada para Em análise."
+          },
+          {
+            "id": "pedido_1",
+            "data": "11/12/2026",
+            "hora": "16:40",
+            "instante": "2026-12-11T16:40:00-03:00",
+            "titulo": "Complementação solicitada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente."
+          }
+        ],
+        "documentosInfo": {
+          "pdf-57e33689f0cf1e": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Histórico acadêmico",
+            "observacao": ""
+          },
+          "pdf-e9cb0d2f9358ae": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Carta de motivação",
+            "observacao": ""
+          },
+          "pdf-20e8b1097eaf25": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Comprovante de proficiência",
+            "observacao": ""
+          }
+        },
+        "condicoes": {
+          "numero": 2,
+          "destino": "Universidade Horizonte",
+          "pais": "Portugal",
+          "cidade": "Lisboa",
+          "area": "Computação",
+          "duracao": "6 meses",
+          "inicio": "2026-11-01T08:00:00-03:00",
+          "fim": "2026-12-10T18:00:00-03:00",
+          "fuso": "America/Sao_Paulo",
+          "documentos": [
+            {
+              "id": "historico",
+              "titulo": "Histórico acadêmico",
+              "obrigatorio": true
+            },
+            {
+              "id": "carta",
+              "titulo": "Carta de motivação",
+              "obrigatorio": true
+            },
+            {
+              "id": "proficiencia",
+              "titulo": "Comprovante de proficiência",
+              "obrigatorio": true
+            }
+          ],
+          "proficiencia": "Comprovante de proficiência em inglês B1.",
+          "edital": "pdf-bb81e5a8b6d623",
+          "camposObrigatorios": [
+            "nome",
+            "curso"
+          ],
+          "criterios": [
+            {
+              "id": "situacao",
+              "nome": "Situação da matrícula",
+              "exigencia": "Matrícula ativa",
+              "valor": "Ativa",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "integralizacao",
+              "nome": "Integralização do curso",
+              "exigencia": "De 30% a 70%, inclusive",
+              "valor": "45%",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "pmg",
+              "nome": "PMG",
+              "exigencia": "PMG igual ou superior a 7,0",
+              "valor": "8,2",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "reprovacoes",
+              "nome": "Reprovações no fluxo contínuo",
+              "exigencia": "Ausência de reprovações no fluxo contínuo",
+              "valor": "Nenhuma",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bolsas": {
+      "BA-2027": {
+        "id": "BA-2027",
+        "rev": 1,
+        "edicaoId": "EX-01/2027",
+        "nome": "Bolsa Apoio Mobilidade 2027",
+        "regras": "Manifestação de interesse na candidatura, seleção interna e decisão da gestão. Sem concessão automática.",
+        "cumulacao": "Conferir regras declaradas, sem presumir política adicional.",
+        "valor": "400,00",
+        "moeda": "EUR",
+        "periodo": "6 meses",
+        "limite": 1,
+        "ocupacaoInicial": 0,
+        "historico": []
+      }
+    },
+    "concessoes": {},
+    "convenios": {},
+    "instituicoes": {},
+    "mobilidades": {},
+    "pedidos": {},
+    "materiais": {},
+    "eventos": {},
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {},
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {
+    "MU-2026": 14
+  },
+  "initial": {
+    "estudante": "candidaturas/MU-2026-014"
+  },
+  "samples": []
+}

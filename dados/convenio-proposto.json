@@ -1,0 +1,68 @@
+{
+  "id": "convenio-proposto",
+  "nome": "Nova chamada · cadastro do convênio pendente",
+  "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+  "clock": "2027-10-15T10:00:00-03:00",
+  "revision": 1,
+  "carteira": "chamada",
+  "entities": {
+    "edicoes": {},
+    "candidaturas": {},
+    "bolsas": {},
+    "concessoes": {},
+    "convenios": {
+      "null": {
+        "id": "null",
+        "rev": 1,
+        "instituicaoId": "INST-ATN",
+        "instituicao": "Universidade Atlântica do Norte",
+        "pais": "Portugal",
+        "areas": [
+          "Computação",
+          "Sistemas de Informação"
+        ],
+        "inicio": "2027-10-01",
+        "fim": "2029-09-30",
+        "documento": "pdf-3c15b20821d13c",
+        "ativo": true,
+        "confirmado": false,
+        "historico": []
+      }
+    },
+    "instituicoes": {
+      "INST-ATN": {
+        "id": "INST-ATN",
+        "nome": "Universidade Atlântica do Norte",
+        "pais": "Portugal",
+        "cidade": "Porto",
+        "rev": 1,
+        "areas": [
+          "Computação",
+          "Sistemas de Informação"
+        ],
+        "historico": []
+      }
+    },
+    "mobilidades": {},
+    "pedidos": {},
+    "materiais": {},
+    "eventos": {},
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {},
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {},
+  "initial": {
+    "gestao": "convenios"
+  },
+  "samples": []
+}

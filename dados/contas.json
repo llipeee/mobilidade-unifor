@@ -1,0 +1,245 @@
+[
+  {
+    "id": "20260001",
+    "nome": "Ana Souza",
+    "login": "20260001",
+    "cursoId": "CC",
+    "curso": "Ciência da Computação",
+    "email": "ana.souza@example.com",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "ativo": true,
+    "unifor": true,
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "GI-004",
+    "nome": "Marcos Lima",
+    "login": "GI-004",
+    "papeis": [
+      {
+        "tipo": "gestao",
+        "rotulo": "Gestão",
+        "carteiras": {
+          "legado": {
+            "edicoes": [
+              "EX-01/2027",
+              "EX-02/2027"
+            ],
+            "bolsas": [
+              "BA-2027"
+            ],
+            "areas": [
+              "Computação"
+            ],
+            "paises": [
+              "Portugal",
+              "Canadá"
+            ]
+          },
+          "chamada": {
+            "edicoes": [
+              "EX-04/2028",
+              "EX-05/2028"
+            ],
+            "bolsas": [],
+            "areas": [
+              "Computação",
+              "Sistemas de Informação"
+            ],
+            "paises": [
+              "Portugal",
+              "Canadá"
+            ]
+          }
+        },
+        "conteudos": [
+          "Portugal",
+          "Geral"
+        ],
+        "comunidade": "Mobilidade Unifor",
+        "instituicoes": [
+          "Universidade Horizonte",
+          "Instituto Aurora",
+          "Universidade Atlântica do Norte",
+          "Instituto Boreal de Tecnologia"
+        ],
+        "comunidades": [
+          "Mobilidade Unifor"
+        ]
+      }
+    ],
+    "ativo": true,
+    "unifor": true,
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "CC-017",
+    "nome": "Rafael Costa",
+    "login": "CC-017",
+    "papeis": [
+      {
+        "tipo": "coordenador",
+        "rotulo": "Coordenação",
+        "cursos": [
+          "CC"
+        ],
+        "curso": "Ciência da Computação"
+      }
+    ],
+    "ativo": true,
+    "unifor": true,
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "PN-2027-003",
+    "nome": "Patrícia Nogueira",
+    "login": "PN-2027-003",
+    "cursoId": "CC",
+    "curso": "Ciência da Computação",
+    "email": "patricia.nogueira@example.com",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      },
+      {
+        "tipo": "coordenador",
+        "rotulo": "Coordenação",
+        "cursos": [
+          "CC"
+        ],
+        "curso": "Ciência da Computação"
+      }
+    ],
+    "ativo": true,
+    "unifor": true,
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "20270082",
+    "nome": "Miguel Santos",
+    "login": "20270082",
+    "ativo": true,
+    "unifor": true,
+    "cursoId": "SI",
+    "curso": "Sistemas de Informação",
+    "email": "miguel.santos@example.invalid",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "INT-2027-027",
+    "nome": "Emma Dubois",
+    "login": "INT-2027-027",
+    "ativo": true,
+    "unifor": false,
+    "cursoId": "RECEPCAO",
+    "curso": "Estudante estrangeira recebida",
+    "email": "emma.dubois@example.invalid",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "20270061",
+    "nome": "Lara Oliveira",
+    "login": "20270061",
+    "ativo": true,
+    "unifor": true,
+    "cursoId": "",
+    "curso": "",
+    "email": "lara@example.invalid",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "20270055",
+    "nome": "Caio Martins",
+    "login": "20270055",
+    "ativo": true,
+    "unifor": true,
+    "cursoId": "",
+    "curso": "",
+    "email": "caio@example.invalid",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "20270031",
+    "nome": "Bruno Alves",
+    "login": "20270031",
+    "ativo": true,
+    "unifor": true,
+    "cursoId": "",
+    "curso": "",
+    "email": "bruno@example.invalid",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  },
+  {
+    "id": "20260047",
+    "nome": "Luiza Pereira",
+    "login": "20260047",
+    "ativo": true,
+    "unifor": true,
+    "cursoId": "",
+    "curso": "",
+    "email": "luiza@example.invalid",
+    "papeis": [
+      {
+        "tipo": "estudante",
+        "rotulo": "Estudante"
+      }
+    ],
+    "comunidades": [
+      "Mobilidade Unifor"
+    ]
+  }
+]

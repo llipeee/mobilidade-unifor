@@ -1,0 +1,19 @@
+{
+  "aplicacao": "N2-correcao-1",
+  "registros": 2,
+  "indexedDB": {
+    "nome": "mobilidade-unifor-n2",
+    "versaoObjectStores": 1
+  },
+  "sementes": "Formato v1 incluído; migração aditiva para v2 ao inicializar/consultar.",
+  "migration": "dominio/migracoes.js",
+  "avaliacaoNovaPorItem": {
+    "resultado": [
+      "parcial",
+      "suficiente"
+    ],
+    "provas": "IDs dos comprovantes confirmados que formam o conjunto suficiente; inclui a prova da confirmação corrente quando escolhida.",
+    "observacao": "opcional"
+  },
+  "legado": "Confirmações integrais v1 permanecem válidas, sem reinterpretar anexos ou reabrir terminais."
+}

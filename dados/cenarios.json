@@ -1,0 +1,140 @@
+[
+  {
+    "id": "agenda-publicada",
+    "nome": "Preparação · agenda após publicação",
+    "descricao": "Evento publicado e evento cancelado consultável. Não há inscrição externa confirmada.",
+    "clock": "2027-09-02T09:00:00-03:00"
+  },
+  {
+    "id": "analise-selecao",
+    "nome": "Complemento válido · seleção ainda não confirmada",
+    "descricao": "Ramo do complemento válido recebido em 14/12. Não sucede prazo vencido ou desistência.",
+    "clock": "2026-12-15T09:30:00-03:00"
+  },
+  {
+    "id": "ap-analise",
+    "nome": "Aproveitamento · análise por item",
+    "descricao": "Mobilidade própria concluída. Parecer e comprovação de registro continuam separados.",
+    "clock": "2027-08-11T09:30:00-03:00"
+  },
+  {
+    "id": "ap-concluido",
+    "nome": "Aproveitamento · comprovações concluídas",
+    "descricao": "Mobilidade própria concluída. Parecer e comprovação de registro continuam separados.",
+    "clock": "2027-08-18T09:30:00-03:00"
+  },
+  {
+    "id": "ap-novo",
+    "nome": "Aproveitamento · revisão antes do envio",
+    "descricao": "Mobilidade própria concluída. Parecer e comprovação de registro continuam separados.",
+    "clock": "2027-08-10T14:10:00-03:00"
+  },
+  {
+    "id": "ap-parcial",
+    "nome": "Aproveitamento · registro parcialmente confirmado",
+    "descricao": "Mobilidade própria concluída. Parecer e comprovação de registro continuam separados.",
+    "clock": "2027-08-18T09:20:00-03:00"
+  },
+  {
+    "id": "ap-pareceres",
+    "nome": "Aproveitamento · pareceres definitivos",
+    "descricao": "Mobilidade própria concluída. Parecer e comprovação de registro continuam separados.",
+    "clock": "2027-08-12T10:20:00-03:00"
+  },
+  {
+    "id": "bolsa-confirmada",
+    "nome": "Seleção e concessão registradas",
+    "descricao": "Ramo do complemento válido recebido em 14/12. Não sucede prazo vencido ou desistência.",
+    "clock": "2026-12-15T09:37:00-03:00"
+  },
+  {
+    "id": "candidatura-enviada",
+    "nome": "Candidatura enviada · recibo",
+    "descricao": "Envio já registrado, sem seleção ou ocupação de vaga.",
+    "clock": "2026-12-08T14:15:22-03:00"
+  },
+  {
+    "id": "candidatura-revisao",
+    "nome": "Candidatura preparada · antes do envio",
+    "descricao": "Consulta de três oportunidades e candidatura própria preparada. Nenhum protocolo gerado.",
+    "clock": "2026-12-08T14:14:00-03:00"
+  },
+  {
+    "id": "complemento-pendente",
+    "nome": "Complemento solicitado · prazo vigente",
+    "descricao": "Este ramo não sucede os outros resultados da complementação.",
+    "clock": "2026-12-12T09:10:00-03:00"
+  },
+  {
+    "id": "complemento-vencido",
+    "nome": "Complemento vencido · ramo independente",
+    "descricao": "Este ramo não sucede os outros resultados da complementação.",
+    "clock": "2026-12-16T09:05:00-03:00"
+  },
+  {
+    "id": "comunidade-pendente",
+    "nome": "Comunidade · vínculos pendentes e denúncia recebida",
+    "descricao": "Recorte de mentoria, Tandem, fórum e denúncias. Contatos ocultos; resposta publicada e remoção só proposta.",
+    "clock": "2027-10-03T10:00:00-03:00"
+  },
+  {
+    "id": "conteudos-rascunho",
+    "nome": "Preparação · evento ainda em rascunho",
+    "descricao": "Materiais publicados consultáveis. O evento em edição ainda não integra a agenda.",
+    "clock": "2027-09-01T14:00:00-03:00"
+  },
+  {
+    "id": "convenio-proposto",
+    "nome": "Nova chamada · cadastro do convênio pendente",
+    "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+    "clock": "2027-10-15T10:00:00-03:00"
+  },
+  {
+    "id": "desistencia-confirmada",
+    "nome": "Desistência confirmada · ramo independente",
+    "descricao": "Este ramo não sucede os outros resultados da complementação.",
+    "clock": "2026-12-12T09:11:00-03:00"
+  },
+  {
+    "id": "indicadores-retificados",
+    "nome": "Nova chamada · v2 vigente e indicadores",
+    "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+    "clock": "2027-11-20T10:00:00-03:00"
+  },
+  {
+    "id": "oportunidade-preparada",
+    "nome": "Nova chamada · preparação da oportunidade",
+    "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+    "clock": "2027-10-16T14:00:00-03:00"
+  },
+  {
+    "id": "oportunidade-publicada",
+    "nome": "Nova chamada · v1 publicada, inscrições futuras",
+    "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+    "clock": "2027-10-20T10:05:00-03:00"
+  },
+  {
+    "id": "orientacao-alternativa",
+    "nome": "Orientação acadêmica incompleta · alternativa",
+    "descricao": "Declaração distinta: PMG 6,2 e integralização sem informação. Não corresponde ao envio de Ana.",
+    "clock": "2026-12-08T14:14:00-03:00"
+  },
+  {
+    "id": "relato-pendente",
+    "nome": "Relato próprio · aguardando moderação",
+    "descricao": "Relato privado de Ana e proposta de publicar, sem confirmação.",
+    "clock": "2027-09-03T11:00:00-03:00"
+  },
+  {
+    "id": "retificacao-proposta",
+    "nome": "Nova chamada · retificação ainda proposta",
+    "descricao": "Carteira EX-04/2028 e EX-05/2028, independente dos processos anteriores de Ana.",
+    "clock": "2027-11-15T11:00:00-03:00"
+  },
+  {
+    "id": "selecao-confirmada",
+    "nome": "Seleção registrada · bolsa ainda não confirmada",
+    "descricao": "Ramo do complemento válido recebido em 14/12. Não sucede prazo vencido ou desistência.",
+    "clock": "2026-12-15T09:35:00-03:00"
+  }
+]

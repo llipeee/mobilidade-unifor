@@ -1,0 +1,520 @@
+{
+  "id": "analise-selecao",
+  "nome": "Complemento válido · seleção ainda não confirmada",
+  "descricao": "Ramo do complemento válido recebido em 14/12. Não sucede prazo vencido ou desistência.",
+  "clock": "2026-12-15T09:30:00-03:00",
+  "revision": 1,
+  "carteira": "legado",
+  "entities": {
+    "edicoes": {
+      "EX-01/2027": {
+        "id": "EX-01/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Portugal",
+        "area": "Computação",
+        "destino": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "foto": "assets/recurso-original-05.png",
+        "fotoAlt": "Bandeira de Portugal, fotografia da referência original",
+        "capacidade": 2,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {},
+        "versaoAtual": 2,
+        "versoes": [
+          {
+            "numero": 2,
+            "destino": "Universidade Horizonte",
+            "pais": "Portugal",
+            "cidade": "Lisboa",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-10T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [
+              {
+                "id": "historico",
+                "titulo": "Histórico acadêmico",
+                "obrigatorio": true
+              },
+              {
+                "id": "carta",
+                "titulo": "Carta de motivação",
+                "obrigatorio": true
+              },
+              {
+                "id": "proficiencia",
+                "titulo": "Comprovante de proficiência",
+                "obrigatorio": true
+              }
+            ],
+            "proficiencia": "Comprovante de proficiência em inglês B1.",
+            "edital": "pdf-bb81e5a8b6d623",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": [
+              {
+                "id": "situacao",
+                "nome": "Situação da matrícula",
+                "exigencia": "Matrícula ativa",
+                "valor": "Ativa",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "integralizacao",
+                "nome": "Integralização do curso",
+                "exigencia": "De 30% a 70%, inclusive",
+                "valor": "45%",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "pmg",
+                "nome": "PMG",
+                "exigencia": "PMG igual ou superior a 7,0",
+                "valor": "8,2",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "reprovacoes",
+                "nome": "Reprovações no fluxo contínuo",
+                "exigencia": "Ausência de reprovações no fluxo contínuo",
+                "valor": "Nenhuma",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              }
+            ]
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [
+          "BA-2027"
+        ],
+        "historico": [],
+        "dadosCompletos": true
+      },
+      "EX-02/2027": {
+        "id": "EX-02/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Portugal",
+        "area": "Computação",
+        "destino": "Destino da carteira",
+        "capacidade": 3,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {},
+        "versaoAtual": 1,
+        "versoes": [],
+        "rascunho": null,
+        "bolsas": [],
+        "historico": [],
+        "dadosCompletos": false
+      }
+    },
+    "candidaturas": {
+      "MU-2026-014": {
+        "id": "MU-2026-014",
+        "rev": 1,
+        "studentId": "20260001",
+        "edicaoId": "EX-01/2027",
+        "estado": "Em análise",
+        "protocolo": "MU-2026-014",
+        "primeiroEnvio": "2026-12-08T14:15:22-03:00",
+        "versaoAplicavel": 2,
+        "declaracao": {
+          "matricula": "Ativa",
+          "integralizacao": "45",
+          "pmg": "8,2",
+          "reprovacoes": "Nenhuma"
+        },
+        "identificacao": {
+          "nome": "Ana Souza",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {
+          "historico": [
+            "pdf-57e33689f0cf1e"
+          ],
+          "carta": [
+            "pdf-e9cb0d2f9358ae",
+            "pdf-562983ef2dcc0a"
+          ],
+          "proficiencia": [
+            "pdf-20e8b1097eaf25"
+          ]
+        },
+        "interesses": [
+          "BA-2027"
+        ],
+        "pedidos": [
+          {
+            "id": "PC-MU-2026-014-1",
+            "numero": 1,
+            "motivo": "A carta de motivação enviada apresenta páginas cortadas. Reenvie o documento completo e legível.",
+            "prazo": "2026-12-15T18:00:00-03:00",
+            "inicio": "2026-12-11T16:40:00-03:00",
+            "vigente": false,
+            "documentos": [
+              "carta"
+            ],
+            "respostas": [
+              "pdf-562983ef2dcc0a"
+            ],
+            "fimMotivo": "Resposta documental válida recebida"
+          }
+        ],
+        "conferencia": {
+          "autor": "GI-004",
+          "autorNome": "Marcos Lima",
+          "instante": "2026-12-15T09:10:00-03:00",
+          "resultados": {
+            "matricula": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: matrícula ativa."
+            },
+            "integralizacao": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: 45% integralizado."
+            },
+            "pmg": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: PMG 8,2."
+            },
+            "reprovacoes": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: nenhuma reprovação no fluxo contínuo."
+            },
+            "doc:historico": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Original completo e legível; identidade e vínculo conferidos."
+            },
+            "doc:carta": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-562983ef2dcc0a"
+              ],
+              "observacao": "Carta completa recebida no pedido 1: todas as páginas legíveis. Original cortado preservado."
+            },
+            "doc:proficiencia": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-20e8b1097eaf25"
+              ],
+              "observacao": "Original legível; titular e documento conferidos."
+            },
+            "idioma": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-20e8b1097eaf25"
+              ],
+              "observacao": "Comprovante original atesta inglês B1, conforme edital v2."
+            }
+          },
+          "observacao": "Conferência preservada do cenário."
+        },
+        "selecao": null,
+        "respostasExternas": [],
+        "inicio": null,
+        "retorno": null,
+        "historico": [
+          {
+            "id": "envio",
+            "data": "08/12/2026",
+            "hora": "14:15:22",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Candidatura enviada",
+            "autor": "Ana Souza",
+            "descricao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados.",
+            "descricaoExibicao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados."
+          },
+          {
+            "id": "analise",
+            "data": "09/12/2026",
+            "hora": "10:15",
+            "instante": "2026-12-09T10:15:00-03:00",
+            "titulo": "Análise iniciada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Candidatura passou de Enviada para Em análise.",
+            "descricaoExibicao": "Candidatura passou de Enviada para Em análise."
+          },
+          {
+            "id": "pedido_1",
+            "data": "11/12/2026",
+            "hora": "16:40",
+            "instante": "2026-12-11T16:40:00-03:00",
+            "titulo": "Complementação solicitada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente.",
+            "descricaoExibicao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente."
+          },
+          {
+            "id": "complemento",
+            "data": "14/12/2026",
+            "hora": "10:22:08",
+            "instante": "2026-12-14T10:22:08-03:00",
+            "titulo": "Complemento recebido; retorno à análise",
+            "autor": "Ana Souza",
+            "descricao": "Resposta válida ao pedido 1, antes de 15/12 às 18h. Documentação pendente → Em análise. Recebimento não comprova exigências.",
+            "descricaoExibicao": "Resposta válida ao pedido 1, antes de 15/12 às 18h. Documentação pendente → Em análise. Recebimento não comprova exigências."
+          },
+          {
+            "id": "conferencia",
+            "data": "15/12/2026",
+            "hora": "09:10",
+            "instante": "2026-12-15T09:10:00-03:00",
+            "titulo": "Conferência humana concluída",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "Oito exigências do edital v2 comprovadas nas evidências. Resultados fictícios para esta ramificação.",
+            "descricaoExibicao": "Oito exigências do edital v2 comprovadas nas evidências."
+          }
+        ],
+        "documentosInfo": {
+          "pdf-57e33689f0cf1e": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Histórico acadêmico",
+            "observacao": ""
+          },
+          "pdf-e9cb0d2f9358ae": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Carta de motivação",
+            "observacao": ""
+          },
+          "pdf-20e8b1097eaf25": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Comprovante de proficiência",
+            "observacao": ""
+          },
+          "pdf-562983ef2dcc0a": {
+            "origem": "Resposta ao pedido 1",
+            "instante": "2026-12-14T10:22:08-03:00",
+            "titulo": "Carta de motivação completa",
+            "original": "pdf-e9cb0d2f9358ae"
+          }
+        },
+        "condicoes": {
+          "numero": 2,
+          "destino": "Universidade Horizonte",
+          "pais": "Portugal",
+          "cidade": "Lisboa",
+          "area": "Computação",
+          "duracao": "6 meses",
+          "inicio": "2026-11-01T08:00:00-03:00",
+          "fim": "2026-12-10T18:00:00-03:00",
+          "fuso": "America/Sao_Paulo",
+          "documentos": [
+            {
+              "id": "historico",
+              "titulo": "Histórico acadêmico",
+              "obrigatorio": true
+            },
+            {
+              "id": "carta",
+              "titulo": "Carta de motivação",
+              "obrigatorio": true
+            },
+            {
+              "id": "proficiencia",
+              "titulo": "Comprovante de proficiência",
+              "obrigatorio": true
+            }
+          ],
+          "proficiencia": "Comprovante de proficiência em inglês B1.",
+          "edital": "pdf-bb81e5a8b6d623",
+          "camposObrigatorios": [
+            "nome",
+            "curso"
+          ],
+          "criterios": [
+            {
+              "id": "situacao",
+              "nome": "Situação da matrícula",
+              "exigencia": "Matrícula ativa",
+              "valor": "Ativa",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "integralizacao",
+              "nome": "Integralização do curso",
+              "exigencia": "De 30% a 70%, inclusive",
+              "valor": "45%",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "pmg",
+              "nome": "PMG",
+              "exigencia": "PMG igual ou superior a 7,0",
+              "valor": "8,2",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "reprovacoes",
+              "nome": "Reprovações no fluxo contínuo",
+              "exigencia": "Ausência de reprovações no fluxo contínuo",
+              "valor": "Nenhuma",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            }
+          ]
+        }
+      },
+      "MU-2026-021": {
+        "id": "MU-2026-021",
+        "rev": 1,
+        "studentId": "titular-MU-2026-021",
+        "edicaoId": "EX-02/2027",
+        "estado": "Enviada",
+        "protocolo": "MU-2026-021",
+        "primeiroEnvio": "2026-12-15T09:30:00-03:00",
+        "versaoAplicavel": 1,
+        "declaracao": {},
+        "identificacao": {
+          "nome": "Bruno Alves",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {},
+        "interesses": [],
+        "pedidos": [],
+        "conferencia": null,
+        "selecao": null,
+        "respostasExternas": [],
+        "inicio": null,
+        "retorno": null,
+        "historico": [],
+        "condicoes": null
+      },
+      "MU-2026-023": {
+        "id": "MU-2026-023",
+        "rev": 1,
+        "studentId": "titular-MU-2026-023",
+        "edicaoId": "EX-02/2027",
+        "estado": "Documentação pendente",
+        "protocolo": "MU-2026-023",
+        "primeiroEnvio": "2026-12-15T09:30:00-03:00",
+        "versaoAplicavel": 1,
+        "declaracao": {},
+        "identificacao": {
+          "nome": "Carla Nunes",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {},
+        "interesses": [],
+        "pedidos": [],
+        "conferencia": null,
+        "selecao": null,
+        "respostasExternas": [],
+        "inicio": null,
+        "retorno": null,
+        "historico": [],
+        "condicoes": null
+      }
+    },
+    "bolsas": {
+      "BA-2027": {
+        "id": "BA-2027",
+        "rev": 1,
+        "edicaoId": "EX-01/2027",
+        "nome": "Bolsa Apoio Mobilidade 2027",
+        "regras": "Manifestação de interesse na candidatura, seleção interna e decisão da gestão. Sem concessão automática.",
+        "cumulacao": "Conferir regras declaradas, sem presumir política adicional.",
+        "valor": "400,00",
+        "moeda": "EUR",
+        "periodo": "6 meses",
+        "limite": 1,
+        "ocupacaoInicial": 0,
+        "historico": []
+      }
+    },
+    "concessoes": {},
+    "convenios": {},
+    "instituicoes": {},
+    "mobilidades": {},
+    "pedidos": {},
+    "materiais": {},
+    "eventos": {},
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {},
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {
+    "MU-2026": 23
+  },
+  "initial": {
+    "gestao": "candidaturas/MU-2026-014",
+    "estudante": "candidaturas/MU-2026-014"
+  },
+  "samples": []
+}

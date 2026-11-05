@@ -1,0 +1,692 @@
+{
+  "id": "ap-analise",
+  "nome": "Aproveitamento · análise por item",
+  "descricao": "Mobilidade própria concluída. Parecer e comprovação de registro continuam separados.",
+  "clock": "2027-08-11T09:30:00-03:00",
+  "revision": 1,
+  "carteira": "legado",
+  "entities": {
+    "edicoes": {
+      "EX-01/2027": {
+        "id": "EX-01/2027",
+        "rev": 1,
+        "publicada": true,
+        "encerrada": false,
+        "convenioId": null,
+        "pais": "Portugal",
+        "area": "Computação",
+        "destino": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "foto": "assets/recurso-original-05.png",
+        "fotoAlt": "Bandeira de Portugal, fotografia da referência original",
+        "capacidade": 2,
+        "ocupacaoInicial": 0,
+        "ocupacoes": {
+          "MU-2026-014": true
+        },
+        "versaoAtual": 2,
+        "versoes": [
+          {
+            "numero": 2,
+            "destino": "Universidade Horizonte",
+            "pais": "Portugal",
+            "cidade": "Lisboa",
+            "area": "Computação",
+            "duracao": "6 meses",
+            "inicio": "2026-11-01T08:00:00-03:00",
+            "fim": "2026-12-10T18:00:00-03:00",
+            "fuso": "America/Sao_Paulo",
+            "documentos": [
+              {
+                "id": "historico",
+                "titulo": "Histórico acadêmico",
+                "obrigatorio": true
+              },
+              {
+                "id": "carta",
+                "titulo": "Carta de motivação",
+                "obrigatorio": true
+              },
+              {
+                "id": "proficiencia",
+                "titulo": "Comprovante de proficiência",
+                "obrigatorio": true
+              }
+            ],
+            "proficiencia": "Comprovante de proficiência em inglês B1.",
+            "edital": "pdf-bb81e5a8b6d623",
+            "camposObrigatorios": [
+              "nome",
+              "curso"
+            ],
+            "criterios": [
+              {
+                "id": "situacao",
+                "nome": "Situação da matrícula",
+                "exigencia": "Matrícula ativa",
+                "valor": "Ativa",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "integralizacao",
+                "nome": "Integralização do curso",
+                "exigencia": "De 30% a 70%, inclusive",
+                "valor": "45%",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "pmg",
+                "nome": "PMG",
+                "exigencia": "PMG igual ou superior a 7,0",
+                "valor": "8,2",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              },
+              {
+                "id": "reprovacoes",
+                "nome": "Reprovações no fluxo contínuo",
+                "exigencia": "Ausência de reprovações no fluxo contínuo",
+                "valor": "Nenhuma",
+                "resultado": {
+                  "codigo": "atendido",
+                  "rotulo": "Atendido",
+                  "tom": "sucesso",
+                  "icone": "check"
+                }
+              }
+            ]
+          }
+        ],
+        "rascunho": null,
+        "bolsas": [
+          "BA-2027"
+        ],
+        "historico": [],
+        "dadosCompletos": true
+      }
+    },
+    "candidaturas": {
+      "MU-2026-014": {
+        "id": "MU-2026-014",
+        "rev": 1,
+        "studentId": "20260001",
+        "edicaoId": "EX-01/2027",
+        "estado": "Concluída",
+        "protocolo": "MU-2026-014",
+        "primeiroEnvio": "2026-12-08T14:15:22-03:00",
+        "versaoAplicavel": 2,
+        "condicoes": {
+          "numero": 2,
+          "destino": "Universidade Horizonte",
+          "pais": "Portugal",
+          "cidade": "Lisboa",
+          "area": "Computação",
+          "duracao": "6 meses",
+          "inicio": "2026-11-01T08:00:00-03:00",
+          "fim": "2026-12-10T18:00:00-03:00",
+          "fuso": "America/Sao_Paulo",
+          "documentos": [
+            {
+              "id": "historico",
+              "titulo": "Histórico acadêmico",
+              "obrigatorio": true
+            },
+            {
+              "id": "carta",
+              "titulo": "Carta de motivação",
+              "obrigatorio": true
+            },
+            {
+              "id": "proficiencia",
+              "titulo": "Comprovante de proficiência",
+              "obrigatorio": true
+            }
+          ],
+          "proficiencia": "Comprovante de proficiência em inglês B1.",
+          "edital": "pdf-bb81e5a8b6d623",
+          "camposObrigatorios": [
+            "nome",
+            "curso"
+          ],
+          "criterios": [
+            {
+              "id": "situacao",
+              "nome": "Situação da matrícula",
+              "exigencia": "Matrícula ativa",
+              "valor": "Ativa",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "integralizacao",
+              "nome": "Integralização do curso",
+              "exigencia": "De 30% a 70%, inclusive",
+              "valor": "45%",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "pmg",
+              "nome": "PMG",
+              "exigencia": "PMG igual ou superior a 7,0",
+              "valor": "8,2",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            },
+            {
+              "id": "reprovacoes",
+              "nome": "Reprovações no fluxo contínuo",
+              "exigencia": "Ausência de reprovações no fluxo contínuo",
+              "valor": "Nenhuma",
+              "resultado": {
+                "codigo": "atendido",
+                "rotulo": "Atendido",
+                "tom": "sucesso",
+                "icone": "check"
+              }
+            }
+          ]
+        },
+        "declaracao": {
+          "matricula": "Ativa",
+          "integralizacao": "45",
+          "pmg": "8,2",
+          "reprovacoes": "Nenhuma"
+        },
+        "identificacao": {
+          "nome": "Ana Souza",
+          "curso": "Ciência da Computação",
+          "cursoId": "CC"
+        },
+        "documentos": {
+          "historico": [
+            "pdf-57e33689f0cf1e"
+          ],
+          "carta": [
+            "pdf-e9cb0d2f9358ae",
+            "pdf-562983ef2dcc0a"
+          ],
+          "proficiencia": [
+            "pdf-20e8b1097eaf25"
+          ]
+        },
+        "interesses": [
+          "BA-2027"
+        ],
+        "pedidos": [],
+        "conferencia": {
+          "autor": "GI-004",
+          "autorNome": "Marcos Lima",
+          "instante": "2026-12-15T09:10:00-03:00",
+          "resultados": {
+            "matricula": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: matrícula ativa."
+            },
+            "integralizacao": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: 45% integralizado."
+            },
+            "pmg": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: PMG 8,2."
+            },
+            "reprovacoes": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Histórico acadêmico original: nenhuma reprovação no fluxo contínuo."
+            },
+            "doc:historico": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-57e33689f0cf1e"
+              ],
+              "observacao": "Original completo e legível; identidade e vínculo conferidos."
+            },
+            "doc:carta": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-562983ef2dcc0a"
+              ],
+              "observacao": "Carta completa recebida no pedido 1: todas as páginas legíveis. Original cortado preservado."
+            },
+            "doc:proficiencia": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-20e8b1097eaf25"
+              ],
+              "observacao": "Original legível; titular e documento conferidos."
+            },
+            "idioma": {
+              "comprovado": true,
+              "evidencias": [
+                "pdf-20e8b1097eaf25"
+              ],
+              "observacao": "Comprovante original atesta inglês B1, conforme edital v2."
+            }
+          },
+          "observacao": "Conferência histórica preservada."
+        },
+        "selecao": {
+          "autor": "Marcos Lima",
+          "autorId": "GI-004",
+          "data": "15/12/2026",
+          "hora": "09:31:12",
+          "instante": "2026-12-15T09:31:12-03:00",
+          "justificativa": "Conferência concluída: os quatro critérios acadêmicos, os três documentos obrigatórios e a proficiência em inglês B1 estão comprovados conforme o edital v2. Carta completa recebida no prazo próprio. Há vaga disponível na edição EX-01/2027.",
+          "justificativaExibicao": "Conferência concluída: os quatro critérios acadêmicos, os três documentos obrigatórios e a proficiência em inglês B1 estão comprovados conforme o edital v2. Carta completa recebida no prazo próprio. Há vaga disponível na edição EX-01/2027."
+        },
+        "respostasExternas": [
+          {
+            "tipo": "Aceite",
+            "data": "2027-01-11",
+            "documento": "pdf-283c1413a9513f",
+            "autor": "GI-004"
+          }
+        ],
+        "inicio": "2027-02-01",
+        "retorno": "2027-07-31",
+        "mobilidadeId": "MB-2027-014",
+        "historico": [
+          {
+            "id": "envio",
+            "data": "08/12/2026",
+            "hora": "14:15:22",
+            "instante": "2026-12-08T14:15:22-03:00",
+            "titulo": "Candidatura enviada",
+            "autor": "Ana Souza",
+            "descricao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados.",
+            "descricaoExibicao": "Protocolo MU-2026-014. Declaração, edital v2 e três documentos preservados."
+          },
+          {
+            "id": "analise",
+            "data": "09/12/2026",
+            "hora": "10:15",
+            "instante": "2026-12-09T10:15:00-03:00",
+            "titulo": "Análise iniciada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Candidatura passou de Enviada para Em análise.",
+            "descricaoExibicao": "Candidatura passou de Enviada para Em análise."
+          },
+          {
+            "id": "pedido_1",
+            "data": "11/12/2026",
+            "hora": "16:40",
+            "instante": "2026-12-11T16:40:00-03:00",
+            "titulo": "Complementação solicitada",
+            "autor": "Gestão de Internacionalização",
+            "descricao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente.",
+            "descricaoExibicao": "Carta de motivação completa. Prazo próprio até 15/12/2026, às 18h. Situação: Documentação pendente."
+          },
+          {
+            "id": "complemento",
+            "data": "14/12/2026",
+            "hora": "10:22:08",
+            "instante": "2026-12-14T10:22:08-03:00",
+            "titulo": "Complemento recebido; retorno à análise",
+            "autor": "Ana Souza",
+            "descricao": "Resposta válida ao pedido 1, antes de 15/12 às 18h. Documentação pendente → Em análise. Recebimento não comprova exigências.",
+            "descricaoExibicao": "Resposta válida ao pedido 1, antes de 15/12 às 18h. Documentação pendente → Em análise. Recebimento não comprova exigências."
+          },
+          {
+            "id": "conferencia",
+            "data": "15/12/2026",
+            "hora": "09:10",
+            "instante": "2026-12-15T09:10:00-03:00",
+            "titulo": "Conferência humana concluída",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "Oito exigências do edital v2 comprovadas nas evidências. Resultados fictícios para esta ramificação.",
+            "descricaoExibicao": "Oito exigências do edital v2 comprovadas nas evidências."
+          },
+          {
+            "id": "selecao",
+            "data": "15/12/2026",
+            "hora": "09:31:12",
+            "instante": "2026-12-15T09:31:12-03:00",
+            "titulo": "Seleção confirmada",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "Em análise → Selecionada. Uma vaga ocupada na edição. Justificativa preservada no registro da decisão.",
+            "descricaoExibicao": "Em análise → Selecionada. Uma vaga ocupada na edição. Justificativa preservada no registro da decisão."
+          },
+          {
+            "id": "bolsa",
+            "data": "15/12/2026",
+            "hora": "09:36:40",
+            "instante": "2026-12-15T09:36:40-03:00",
+            "titulo": "Concessão de bolsa confirmada",
+            "autor": "Marcos Lima · GI-004",
+            "descricao": "CB-2027-001 ativa na BA-2027. Uma disponibilidade da bolsa consumida; vaga e estado Selecionada mantidos. Justificativa preservada.",
+            "descricaoExibicao": "CB-2027-001 ativa na BA-2027. Uma disponibilidade da bolsa consumida; vaga e estado Selecionada mantidos. Justificativa preservada."
+          },
+          {
+            "instante": "2027-01-12T10:00:00-03:00",
+            "evento": "Aceite externo registrado",
+            "autor": "Marcos Lima · GI-004",
+            "anterior": "Selecionada",
+            "novo": "Selecionada",
+            "referencia": "aceite_horizonte_ana_2027.pdf · 11/01/2027"
+          },
+          {
+            "instante": "2027-02-01T10:00:00-03:00",
+            "evento": "Início efetivo registrado",
+            "autor": "Marcos Lima · GI-004",
+            "anterior": "Selecionada",
+            "novo": "Em mobilidade",
+            "referencia": "Início em 01/02/2027"
+          },
+          {
+            "instante": "2027-08-02T10:00:00-03:00",
+            "evento": "Retorno efetivo registrado",
+            "autor": "Marcos Lima · GI-004",
+            "anterior": "Em mobilidade",
+            "novo": "Concluída",
+            "referencia": "Retorno em 31/07/2027"
+          }
+        ],
+        "documentosInfo": {
+          "pdf-57e33689f0cf1e": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00"
+          },
+          "pdf-e9cb0d2f9358ae": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00"
+          },
+          "pdf-20e8b1097eaf25": {
+            "origem": "Original do envio",
+            "instante": "2026-12-08T14:15:22-03:00"
+          },
+          "pdf-562983ef2dcc0a": {
+            "origem": "Resposta ao pedido 1",
+            "instante": "2026-12-14T10:22:08-03:00",
+            "original": "pdf-e9cb0d2f9358ae"
+          }
+        }
+      }
+    },
+    "bolsas": {
+      "BA-2027": {
+        "id": "BA-2027",
+        "rev": 1,
+        "edicaoId": "EX-01/2027",
+        "nome": "Bolsa Apoio Mobilidade 2027",
+        "regras": "Manifestação de interesse na candidatura, seleção interna e decisão da gestão. Sem concessão automática.",
+        "cumulacao": "Conferir regras declaradas, sem presumir política adicional.",
+        "valor": "400,00",
+        "moeda": "EUR",
+        "periodo": "6 meses",
+        "limite": 1,
+        "ocupacaoInicial": 0,
+        "historico": []
+      }
+    },
+    "concessoes": {
+      "CB-2027-001": {
+        "id": "CB-2027-001",
+        "rev": 1,
+        "candidaturaId": "MU-2026-014",
+        "bolsaId": "BA-2027",
+        "ativa": true,
+        "autor": "GI-004",
+        "instante": "2026-12-15T09:36:40-03:00",
+        "motivo": "Candidatura selecionada, interesse na BA-2027 preservado no envio e regras fictícias conferidas. Não há concessão ativa duplicada para esta bolsa e candidatura. O limite próprio da bolsa tem uma disponibilidade para conceder o apoio previsto.",
+        "historico": []
+      }
+    },
+    "convenios": {},
+    "instituicoes": {},
+    "mobilidades": {
+      "MB-2027-014": {
+        "id": "MB-2027-014",
+        "rev": 1,
+        "studentId": "20260001",
+        "candidaturaId": "MU-2026-014",
+        "edicaoId": "EX-01/2027",
+        "instituicao": "Universidade Horizonte",
+        "cidade": "Lisboa",
+        "pais": "Portugal",
+        "estado": "Concluída",
+        "aceite": {
+          "data": "11/01/2027",
+          "instanteDocumento": "2027-01-11T12:00:00-03:00",
+          "documento": {
+            "id": "aceite",
+            "titulo": "Aceite da instituição de destino",
+            "arquivo": "aceite_horizonte_ana_2027.pdf",
+            "tamanho": "0,4 MB",
+            "bytes": 400000,
+            "tipo": "upload",
+            "mime": "application/pdf",
+            "origem": {
+              "rotulo": "Anexado",
+              "data": "12/01/2027",
+              "hora": "10:00",
+              "autor": "Marcos Lima"
+            },
+            "observacao": null,
+            "vinculo": null
+          },
+          "registradoEm": "2027-01-12T10:00:00-03:00",
+          "autor": "Marcos Lima",
+          "autorId": "GI-004"
+        },
+        "inicio": {
+          "data": "01/02/2027",
+          "instanteEfetivo": "2027-02-01T08:00:00-03:00",
+          "registradoEm": "2027-02-01T10:00:00-03:00",
+          "autor": "Marcos Lima",
+          "autorId": "GI-004"
+        },
+        "retorno": {
+          "data": "31/07/2027",
+          "dataRegistro": "02/08/2027",
+          "horaRegistro": "10:00",
+          "instanteEfetivo": "2027-07-31T18:00:00-03:00",
+          "registradoEm": "2027-08-02T10:00:00-03:00",
+          "autor": "Marcos Lima",
+          "autorId": "GI-004"
+        },
+        "historico": []
+      }
+    },
+    "pedidos": {
+      "AP-2027-008": {
+        "id": "AP-2027-008",
+        "rev": 1,
+        "studentId": "20260001",
+        "cursoId": "CC",
+        "curso": "Ciência da Computação",
+        "mobilidadeId": "MB-2027-014",
+        "enviado": true,
+        "protocolo": "AP-2027-008",
+        "historicos": [
+          "pdf-97c27782815972"
+        ],
+        "itens": [
+          {
+            "id": "I-01",
+            "origem": {
+              "id": "UH-2027.1-ALG201-01",
+              "instituicao": "Universidade Horizonte",
+              "disciplina": "Algoritmos Avançados",
+              "codigo": "UH-ALG201",
+              "periodo": "2027.1",
+              "cargaHoraria": 60,
+              "referencia": "Histórico, p. 2, entrada 01",
+              "documentoId": "historico_mobilidade",
+              "aprovacao": "Aprovada",
+              "ocorrencia": "01",
+              "pagina": "2"
+            },
+            "credito": {
+              "id": "CC-2024.1-EST202",
+              "componente": "Estruturas de Dados II",
+              "codigo": "CC-EST202",
+              "cargaHoraria": 60,
+              "curso": "Ciência da Computação",
+              "cursoId": "CC",
+              "matriz": "2024.1",
+              "referencia": "Matriz CC 2024.1, componente 12"
+            },
+            "ementas": [
+              "pdf-86458536e48458"
+            ],
+            "estado": "Em análise",
+            "parecer": null,
+            "pedidos": [],
+            "provas": []
+          },
+          {
+            "id": "I-02",
+            "origem": {
+              "id": "UH-2027.1-BD220-02",
+              "instituicao": "Universidade Horizonte",
+              "disciplina": "Sistemas de Banco de Dados",
+              "codigo": "UH-BD220",
+              "periodo": "2027.1",
+              "cargaHoraria": 60,
+              "referencia": "Histórico, p. 2, entrada 02",
+              "documentoId": "historico_mobilidade",
+              "aprovacao": "Aprovada",
+              "ocorrencia": "02",
+              "pagina": "2"
+            },
+            "credito": {
+              "id": "CC-2024.1-BD204",
+              "componente": "Banco de Dados II",
+              "codigo": "CC-BD204",
+              "cargaHoraria": 60,
+              "curso": "Ciência da Computação",
+              "cursoId": "CC",
+              "matriz": "2024.1",
+              "referencia": "Matriz CC 2024.1, componente 18"
+            },
+            "ementas": [
+              "pdf-4b856ce5a3fd55"
+            ],
+            "estado": "Em análise",
+            "parecer": null,
+            "pedidos": [],
+            "provas": []
+          },
+          {
+            "id": "I-03",
+            "origem": {
+              "id": "UH-2027.1-UX105-03",
+              "instituicao": "Universidade Horizonte",
+              "disciplina": "Design de Interfaces",
+              "codigo": "UH-UX105",
+              "periodo": "2027.1",
+              "cargaHoraria": 45,
+              "referencia": "Histórico, p. 3, entrada 03",
+              "documentoId": "historico_mobilidade",
+              "aprovacao": "Aprovada",
+              "ocorrencia": "03",
+              "pagina": "3"
+            },
+            "credito": {
+              "id": "CC-2024.1-IHC303",
+              "componente": "Interação Humano-Computador",
+              "codigo": "CC-IHC303",
+              "cargaHoraria": 60,
+              "curso": "Ciência da Computação",
+              "cursoId": "CC",
+              "matriz": "2024.1",
+              "referencia": "Matriz CC 2024.1, componente 24"
+            },
+            "ementas": [
+              "pdf-520504a436fd22"
+            ],
+            "estado": "Em análise",
+            "parecer": null,
+            "pedidos": [],
+            "provas": []
+          }
+        ],
+        "provas": [],
+        "historico": [
+          {
+            "id": "envio",
+            "data": "10/08/2027",
+            "hora": "14:15:22",
+            "instante": "2027-08-10T14:15:22-03:00",
+            "titulo": "Pedido enviado",
+            "autor": "Ana Souza",
+            "descricao": "Protocolo AP-2027-008. Histórico e três ementas preservados; três itens Em análise."
+          },
+          {
+            "id": "analise",
+            "data": "11/08/2027",
+            "hora": "09:00",
+            "instante": "2027-08-11T09:00:00-03:00",
+            "titulo": "Análise iniciada pela coordenação",
+            "autor": "Rafael Costa · CC-017",
+            "descricao": "Pedido de Ciência da Computação aberto para conferência por item."
+          }
+        ]
+      }
+    },
+    "materiais": {},
+    "eventos": {},
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {},
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {
+    "MU-2026": 14,
+    "AP-2027": 8,
+    "CB-2027": 1,
+    "MB-2027": 14
+  },
+  "initial": {
+    "estudante": "aproveitamento",
+    "coordenador": "aproveitamento"
+  },
+  "samples": []
+}

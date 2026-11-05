@@ -1,0 +1,253 @@
+{
+  "id": "agenda-publicada",
+  "nome": "Preparação · agenda após publicação",
+  "descricao": "Evento publicado e evento cancelado consultável. Não há inscrição externa confirmada.",
+  "clock": "2027-09-02T09:00:00-03:00",
+  "revision": 1,
+  "carteira": "legado",
+  "entities": {
+    "edicoes": {},
+    "candidaturas": {},
+    "bolsas": {},
+    "concessoes": {},
+    "convenios": {},
+    "instituicoes": {},
+    "mobilidades": {},
+    "pedidos": {},
+    "materiais": {
+      "MAT-2027-021": {
+        "id": "MAT-2027-021",
+        "tipo": "material",
+        "titulo": "Primeiros passos em Portugal",
+        "tema": "Adaptação",
+        "pais": "Portugal",
+        "responsavel": "Equipe de Internacionalização",
+        "atualizadoEm": "2027-08-26T10:00:00-03:00",
+        "atualizacao": "26/08/2027",
+        "versao": 1,
+        "texto": "Organize a chegada, conheça os serviços de apoio da instituição de destino e reserve tempo para se adaptar à rotina local.",
+        "recurso": null,
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [],
+        "data": null
+      },
+      "MAT-2027-022": {
+        "id": "MAT-2027-022",
+        "tipo": "material",
+        "titulo": "Organize seus documentos",
+        "tema": "Documentação",
+        "pais": "Geral",
+        "responsavel": "Marcos Lima",
+        "atualizadoEm": "2027-08-28T15:00:00-03:00",
+        "atualizacao": "28/08/2027",
+        "versao": 1,
+        "texto": "Confira documentos de viagem e os comprovantes solicitados para a chegada.",
+        "recurso": {
+          "servico": "Portal de Orientação",
+          "externo": true,
+          "url": "https://orientacao.exemplo.invalid/documentos"
+        },
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [],
+        "data": null
+      },
+      "MAT-2027-023": {
+        "id": "MAT-2027-023",
+        "tipo": "material",
+        "titulo": "Português no dia a dia acadêmico",
+        "tema": "Idiomas",
+        "pais": "Portugal",
+        "responsavel": "Núcleo de Idiomas",
+        "atualizadoEm": "2027-08-29T09:00:00-03:00",
+        "atualizacao": "29/08/2027",
+        "versao": 1,
+        "texto": "Prepare um pequeno glossário de termos usados nas aulas e nos serviços da universidade. Peça esclarecimentos quando uma expressão for nova.",
+        "recurso": null,
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor",
+        "historico": [],
+        "data": null
+      }
+    },
+    "eventos": {
+      "EV-2027-029": {
+        "id": "EV-2027-029",
+        "tipo": "evento",
+        "titulo": "Oficina de planejamento de estudos",
+        "descricao": "Orientações gerais para organizar estudos e conversar com a coordenação antes da viagem.",
+        "responsavel": "Marcos Lima",
+        "pais": "Portugal",
+        "data": "2027-09-18",
+        "horaInicio": "10:00",
+        "horaFim": "11:00",
+        "inicio": "2027-09-18T10:00:00-03:00",
+        "fim": "2027-09-18T11:00:00-03:00",
+        "fuso": "America/Sao_Paulo (UTC−03)",
+        "local": "Sala virtual · Portal de Eventos",
+        "inscricao": {
+          "servico": "Portal de Eventos",
+          "externo": true,
+          "url": "https://eventos.exemplo.invalid/oficina-2027",
+          "orientacao": "Inscrições eram realizadas no Portal de Eventos, até 16/09, às 18h. Evento cancelado; novas inscrições indisponíveis."
+        },
+        "versao": 1,
+        "publicacao": {
+          "autor": "Marcos Lima · GI-004",
+          "instante": "2027-08-26T10:00:00-03:00",
+          "data": "26/08/2027",
+          "hora": "10:00"
+        },
+        "atualizacao": "31/08/2027",
+        "atualizadoEm": "2027-08-31T11:00:00-03:00",
+        "historico": [
+          {
+            "instante": "2027-08-26T10:00:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Publicado"
+          },
+          {
+            "instante": "2027-08-31T11:00:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Cancelado",
+            "motivo": "Indisponibilidade da equipe na data prevista."
+          }
+        ],
+        "cancelamento": {
+          "instante": "2027-08-31T11:00:00-03:00",
+          "autor": "Marcos Lima · GI-004",
+          "motivo": "Indisponibilidade da equipe na data prevista."
+        },
+        "rev": 1,
+        "estado": "Cancelado",
+        "comunidade": "Mobilidade Unifor"
+      },
+      "EV-2027-031": {
+        "id": "EV-2027-031",
+        "tipo": "evento",
+        "titulo": "Encontro de preparação: documentos e chegada",
+        "descricao": "Conversa com a equipe de Internacionalização sobre organização dos documentos, chegada ao destino e canais de apoio. O encontro inclui um momento para dúvidas gerais de quem está preparando uma experiência internacional.",
+        "responsavel": "Marcos Lima",
+        "pais": "Portugal",
+        "data": "2027-09-22",
+        "horaInicio": "14:00",
+        "horaFim": "15:30",
+        "inicio": "2027-09-22T14:00:00-03:00",
+        "fim": "2027-09-22T15:30:00-03:00",
+        "fuso": "America/Sao_Paulo (UTC−03)",
+        "local": "Campus Unifor · sala H12",
+        "inscricao": {
+          "servico": "Portal de Eventos",
+          "externo": true,
+          "url": "https://eventos.exemplo.invalid/preparacao-2027",
+          "orientacao": "Inscreva-se gratuitamente no Portal de Eventos até 20/09, às 18h (Brasília). O serviço externo informa a disponibilidade e confirma a inscrição."
+        },
+        "versao": 1,
+        "publicacao": {
+          "autor": "Marcos Lima · GI-004",
+          "instante": "2027-09-01T14:12:00-03:00",
+          "data": "01/09/2027",
+          "hora": "14:12"
+        },
+        "atualizacao": "01/09/2027",
+        "atualizadoEm": "2027-09-01T14:12:00-03:00",
+        "historico": [
+          {
+            "instante": "2027-09-01T13:40:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Rascunho preparado"
+          },
+          {
+            "instante": "2027-09-01T14:12:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Publicação confirmada"
+          }
+        ],
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor"
+      },
+      "EV-2027-030": {
+        "id": "EV-2027-030",
+        "tipo": "evento",
+        "titulo": "Conversas sobre adaptação cultural",
+        "descricao": "Troca de orientações sobre rotina acadêmica e adaptação cultural.",
+        "responsavel": "Marcos Lima",
+        "pais": "Portugal",
+        "data": "2027-09-29",
+        "horaInicio": "16:00",
+        "horaFim": "17:00",
+        "inicio": "2027-09-29T16:00:00-03:00",
+        "fim": "2027-09-29T17:00:00-03:00",
+        "fuso": "America/Sao_Paulo (UTC−03)",
+        "local": "Campus Unifor · sala H14",
+        "inscricao": {
+          "servico": "Portal de Eventos",
+          "externo": true,
+          "url": "https://eventos.exemplo.invalid/adaptacao",
+          "orientacao": "Consulte as vagas e as orientações no Portal de Eventos."
+        },
+        "versao": 1,
+        "publicacao": {
+          "autor": "Marcos Lima · GI-004",
+          "instante": "2027-08-25T10:00:00-03:00",
+          "data": "25/08/2027",
+          "hora": "10:00"
+        },
+        "atualizacao": "25/08/2027",
+        "atualizadoEm": "2027-08-25T10:00:00-03:00",
+        "historico": [
+          {
+            "instante": "2027-08-25T10:00:00-03:00",
+            "autor": "Marcos Lima · GI-004",
+            "evento": "Publicado"
+          }
+        ],
+        "rev": 1,
+        "estado": "Publicado",
+        "comunidade": "Mobilidade Unifor"
+      }
+    },
+    "relatos": {},
+    "perfisMentor": {},
+    "perfisTandem": {},
+    "vinculos": {},
+    "topicos": {},
+    "respostas": {},
+    "denuncias": {},
+    "medidas": {},
+    "orcamentos": {
+      "20260001": {
+        "id": "20260001",
+        "rev": 1,
+        "studentId": "20260001",
+        "valores": {
+          "passagem": "900,00",
+          "documentacao": "120,50",
+          "meses": "6",
+          "moradia": "480,00",
+          "alimentacao": "210,00",
+          "transporte": "45,00"
+        },
+        "moeda": "EUR",
+        "historico": []
+      }
+    },
+    "exportacoes": {}
+  },
+  "events": [],
+  "notices": [],
+  "counters": {
+    "MAT-2027": 23,
+    "EV-2027": 31
+  },
+  "initial": {
+    "estudante": "agenda",
+    "gestao": "conteudos"
+  },
+  "samples": []
+}
